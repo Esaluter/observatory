@@ -1,0 +1,6 @@
+{
+  "name": "ЕНОТКОРП — NASA Observatory | Window to the Universe",
+  "description": "Самостоятельная научная веб-обсерватория на реальных данных NASA APOD. Исследуйте космос через окно во Вселенную.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
