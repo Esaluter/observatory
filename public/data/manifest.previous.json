@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-18T13:53:28.745515Z",
+  "releaseId": "fc59f9645ec2dec7a2898843",
+  "sources": {
+    "apod": {
+      "count": 1,
+      "candidateCount": 82,
+      "safeStubCount": 81,
+      "index": "releases/fc59f9645ec2dec7a2898843/apod/index.json",
+      "sourceSchemaVersion": 1,
+      "sourceGeneratedAt": "2026-11-18T11:15:37.151428Z"
+    },
+    "epic": {
+      "count": 0,
+      "candidateCount": 74,
+      "safeStubCount": 74,
+      "index": "releases/fc59f9645ec2dec7a2898843/epic/index.json",
+      "sourceSchemaVersion": 1,
+      "sourceGeneratedAt": "2026-11-18T11:16:08.082918Z",
+      "collections": {
+        "natural": "releases/fc59f9645ec2dec7a2898843/epic/natural/index.json",
+        "enhanced": "releases/fc59f9645ec2dec7a2898843/epic/enhanced/index.json"
+      }
+    },
+    "library": {
+      "count": 0,
+      "candidateCount": 0,
+      "safeStubCount": 0,
+      "index": "releases/fc59f9645ec2dec7a2898843/library/index.json",
+      "sourceSchemaVersion": 1,
+      "sourceGeneratedAt": "2026-11-18T11:17:31.254202Z"
+    }
+  },
+  "records": 156,
+  "mediaFiles": 1,
+  "checksums": {
+    "releases/fc59f9645ec2dec7a2898843/apod/index.json": "812fc6376cb9f47708dc9bf56000f1890e4fafe4d4855d2a9c1df60014654650",
+    "releases/fc59f9645ec2dec7a2898843/epic/enhanced/index.json": "b324fd6c9f0344a07184d1f207f197fe02c59019349d1a8950298fa6e80181bf",
+    "releases/fc59f9645ec2dec7a2898843/epic/index.json": "851c1e8edfbc27c92db3e68b9c83fedf4426efcc976afcf96305ad4973cf9d86",
+    "releases/fc59f9645ec2dec7a2898843/epic/natural/index.json": "915488e3ad6b04efbff809acdaf4ce72d0d46db57506238ae5b6e0d2ea9e41f5",
+    "releases/fc59f9645ec2dec7a2898843/library/index.json": "30e5b45e9df7afce29022307e61bf37707ecae77da0b832e641d4ceea8123b47",
+    "releases/fc59f9645ec2dec7a2898843/media/apod/2026/09/apod_2026-09-05.jpg": "2d5cd4abc8deb7b1fd54c6ca4cd52dce61c9a7f47a01abcca0382177132cf86b"
+  },
+  "rights": {
+    "fullRecords": 1,
+    "safeStubs": 155,
+    "excludedMedia": 149,
+    "excludedTranslations": 40
+  },
+  "translations": 0
+}

@@ -1,0 +1,3894 @@
+{
+  "schemaVersion": 1,
+  "source": "epic",
+  "collection": "enhanced",
+  "generatedAt": "2026-11-19T13:14:39.189535Z",
+  "items": [
+    {
+      "id": "epic:enhanced:20261114222224",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114222224",
+      "date": "2026-11-14 22:17:35",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114222224.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114222224.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114222224",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -13.227539,
+        "lon": -168.222656
+      },
+      "dscovrJ2000Position": {
+        "x": -1060725.052084,
+        "y": -918843.181029,
+        "z": -326775.518229
+      },
+      "lunarJ2000Position": {
+        "x": 165656.110237,
+        "y": -331301.199151,
+        "z": -163389.124697
+      },
+      "sunJ2000Position": {
+        "x": -90737720.000065,
+        "y": -107278207.902695,
+        "z": -46502523.99998
+      },
+      "attitudeQuaternions": {
+        "q0": -0.41265,
+        "q1": -0.26071,
+        "q2": 0.25297,
+        "q3": 0.83532
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -13.227539,
+          "lon": -168.222656
+        },
+        "dscovr_j2000_position": {
+          "x": -1060725.052084,
+          "y": -918843.181029,
+          "z": -326775.518229
+        },
+        "lunar_j2000_position": {
+          "x": 165656.110237,
+          "y": -331301.199151,
+          "z": -163389.124697
+        },
+        "sun_j2000_position": {
+          "x": -90737720.000065,
+          "y": -107278207.902695,
+          "z": -46502523.99998
+        },
+        "attitude_quaternions": {
+          "q0": -0.41265,
+          "q1": -0.26071,
+          "q2": 0.25297,
+          "q3": 0.83532
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114222224.jpg",
+      "mediaSha256": "3bab8efd8d431dd7b9a4135ad3059f7d51768dc57480004ef3021a51d34d5fbe",
+      "mediaSizeBytes": 300465,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114222224.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114203421",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114203421",
+      "date": "2026-11-14 20:29:33",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114203421.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114203421.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114203421",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -13.205566,
+        "lon": -141.240234
+      },
+      "dscovrJ2000Position": {
+        "x": -1062517.847709,
+        "y": -917670.981251,
+        "z": -325799.277565
+      },
+      "lunarJ2000Position": {
+        "x": 159965.326641,
+        "y": -333483.812109,
+        "z": -164852.394208
+      },
+      "sunJ2000Position": {
+        "x": -90893391.999887,
+        "y": -107170190.000078,
+        "z": -46455705.329038
+      },
+      "attitudeQuaternions": {
+        "q0": -0.4123,
+        "q1": -0.2599,
+        "q2": 0.25268,
+        "q3": 0.83583
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -13.205566,
+          "lon": -141.240234
+        },
+        "dscovr_j2000_position": {
+          "x": -1062517.847709,
+          "y": -917670.981251,
+          "z": -325799.277565
+        },
+        "lunar_j2000_position": {
+          "x": 159965.326641,
+          "y": -333483.812109,
+          "z": -164852.394208
+        },
+        "sun_j2000_position": {
+          "x": -90893391.999887,
+          "y": -107170190.000078,
+          "z": -46455705.329038
+        },
+        "attitude_quaternions": {
+          "q0": -0.4123,
+          "q1": -0.2599,
+          "q2": 0.25268,
+          "q3": 0.83583
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114203421.jpg",
+      "mediaSha256": "f177fd54188beaefd8e6950dcdbe10ab6e64bd2577929ce86d723294ed406fc1",
+      "mediaSizeBytes": 298130,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114203421.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114184619",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114184619",
+      "date": "2026-11-14 18:41:30",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114184619.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114184619.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114184619",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -13.146973,
+        "lon": -114.250488
+      },
+      "dscovrJ2000Position": {
+        "x": -1064308.125,
+        "y": -916496.191395,
+        "z": -324822.330075
+      },
+      "lunarJ2000Position": {
+        "x": 154231.933547,
+        "y": -335581.736851,
+        "z": -166273.816764
+      },
+      "sunJ2000Position": {
+        "x": -91048928.000015,
+        "y": -107061972.497997,
+        "z": -46408802.251148
+      },
+      "attitudeQuaternions": {
+        "q0": -0.412,
+        "q1": -0.25911,
+        "q2": 0.25248,
+        "q3": 0.83629
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -13.146973,
+          "lon": -114.250488
+        },
+        "dscovr_j2000_position": {
+          "x": -1064308.125,
+          "y": -916496.191395,
+          "z": -324822.330075
+        },
+        "lunar_j2000_position": {
+          "x": 154231.933547,
+          "y": -335581.736851,
+          "z": -166273.816764
+        },
+        "sun_j2000_position": {
+          "x": -91048928.000015,
+          "y": -107061972.497997,
+          "z": -46408802.251148
+        },
+        "attitude_quaternions": {
+          "q0": -0.412,
+          "q1": -0.25911,
+          "q2": 0.25248,
+          "q3": 0.83629
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114184619.jpg",
+      "mediaSha256": "4ea646f04cc97da346d3346d9a22d3c9c423ec9fcf81a1def4445733a690efad",
+      "mediaSizeBytes": 299110,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114184619.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114165816",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114165816",
+      "date": "2026-11-14 16:53:28",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114165816.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114165816.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114165816",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -13.117676,
+        "lon": -87.275391
+      },
+      "dscovrJ2000Position": {
+        "x": -1066095.166736,
+        "y": -915319.107806,
+        "z": -323844.914588
+      },
+      "lunarJ2000Position": {
+        "x": 148459.15022,
+        "y": -337593.887883,
+        "z": -167652.624354
+      },
+      "sunJ2000Position": {
+        "x": -91204288.532537,
+        "y": -106953582.333299,
+        "z": -46361823.466638
+      },
+      "attitudeQuaternions": {
+        "q0": -0.41164,
+        "q1": -0.2583,
+        "q2": 0.25223,
+        "q3": 0.83679
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -13.117676,
+          "lon": -87.275391
+        },
+        "dscovr_j2000_position": {
+          "x": -1066095.166736,
+          "y": -915319.107806,
+          "z": -323844.914588
+        },
+        "lunar_j2000_position": {
+          "x": 148459.15022,
+          "y": -337593.887883,
+          "z": -167652.624354
+        },
+        "sun_j2000_position": {
+          "x": -91204288.532537,
+          "y": -106953582.333299,
+          "z": -46361823.466638
+        },
+        "attitude_quaternions": {
+          "q0": -0.41164,
+          "q1": -0.2583,
+          "q2": 0.25223,
+          "q3": 0.83679
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114165816.jpg",
+      "mediaSha256": "b87e9f378c0f3d6ec0feabae75b5e949571cd4f768580ccba4ecbee0bbe61eb5",
+      "mediaSizeBytes": 293274,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114165816.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114151014",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114151014",
+      "date": "2026-11-14 15:05:25",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114151014.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114151014.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114151014",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -13.029785,
+        "lon": -60.205078
+      },
+      "dscovrJ2000Position": {
+        "x": -1067879.750001,
+        "y": -914139.407512,
+        "z": -322866.808876
+      },
+      "lunarJ2000Position": {
+        "x": 142646.707846,
+        "y": -339520.409124,
+        "z": -168988.921459
+      },
+      "sunJ2000Position": {
+        "x": -91359512.162586,
+        "y": -106844996.406638,
+        "z": -46314757.666637
+      },
+      "attitudeQuaternions": {
+        "q0": -0.41133,
+        "q1": -0.25753,
+        "q2": 0.252036,
+        "q3": 0.837236
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -13.029785,
+          "lon": -60.205078
+        },
+        "dscovr_j2000_position": {
+          "x": -1067879.750001,
+          "y": -914139.407512,
+          "z": -322866.808876
+        },
+        "lunar_j2000_position": {
+          "x": 142646.707846,
+          "y": -339520.409124,
+          "z": -168988.921459
+        },
+        "sun_j2000_position": {
+          "x": -91359512.162586,
+          "y": -106844996.406638,
+          "z": -46314757.666637
+        },
+        "attitude_quaternions": {
+          "q0": -0.41133,
+          "q1": -0.25753,
+          "q2": 0.252036,
+          "q3": 0.837236
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114151014.jpg",
+      "mediaSha256": "c5a7eeb165ed5bbdc8d18b7d8864f0a9182b5c2784c9ed32bfd0ce28fae06e92",
+      "mediaSizeBytes": 292133,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114151014.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114132211",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114132211",
+      "date": "2026-11-14 13:17:23",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114132211.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114132211.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114132211",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.98584,
+        "lon": -33.266602
+      },
+      "dscovrJ2000Position": {
+        "x": -1069661.059144,
+        "y": -912957.439885,
+        "z": -321888.255209
+      },
+      "lunarJ2000Position": {
+        "x": 136797.905738,
+        "y": -341360.326406,
+        "z": -170282.003771
+      },
+      "sunJ2000Position": {
+        "x": -91514555.066576,
+        "y": -106736239.553147,
+        "z": -46267619.133361
+      },
+      "attitudeQuaternions": {
+        "q0": -0.411026,
+        "q1": -0.256726,
+        "q2": 0.251858,
+        "q3": 0.837684
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.98584,
+          "lon": -33.266602
+        },
+        "dscovr_j2000_position": {
+          "x": -1069661.059144,
+          "y": -912957.439885,
+          "z": -321888.255209
+        },
+        "lunar_j2000_position": {
+          "x": 136797.905738,
+          "y": -341360.326406,
+          "z": -170282.003771
+        },
+        "sun_j2000_position": {
+          "x": -91514555.066576,
+          "y": -106736239.553147,
+          "z": -46267619.133361
+        },
+        "attitude_quaternions": {
+          "q0": -0.411026,
+          "q1": -0.256726,
+          "q2": 0.251858,
+          "q3": 0.837684
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114132211.jpg",
+      "mediaSha256": "a1588cf799c279eea6078f64d7a5fa92dc4e0ae4ae8afbc6b05a8f662d229954",
+      "mediaSizeBytes": 277562,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114132211.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114113409",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114113409",
+      "date": "2026-11-14 11:29:20",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114113409.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114113409.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114113409",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.971191,
+        "lon": -6.23291
+      },
+      "dscovrJ2000Position": {
+        "x": -1071439.662054,
+        "y": -911772.918989,
+        "z": -320908.991895
+      },
+      "lunarJ2000Position": {
+        "x": 130912.411522,
+        "y": -343113.746791,
+        "z": -171531.939062
+      },
+      "sunJ2000Position": {
+        "x": -91669466.666578,
+        "y": -106627280.000063,
+        "z": -46220393.185889
+      },
+      "attitudeQuaternions": {
+        "q0": -0.410685,
+        "q1": -0.255925,
+        "q2": 0.25155,
+        "q3": 0.83819
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.971191,
+          "lon": -6.23291
+        },
+        "dscovr_j2000_position": {
+          "x": -1071439.662054,
+          "y": -911772.918989,
+          "z": -320908.991895
+        },
+        "lunar_j2000_position": {
+          "x": 130912.411522,
+          "y": -343113.746791,
+          "z": -171531.939062
+        },
+        "sun_j2000_position": {
+          "x": -91669466.666578,
+          "y": -106627280.000063,
+          "z": -46220393.185889
+        },
+        "attitude_quaternions": {
+          "q0": -0.410685,
+          "q1": -0.255925,
+          "q2": 0.25155,
+          "q3": 0.83819
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114113409.jpg",
+      "mediaSha256": "1abeb96b2c03713adb4209a879ad9d02db115955e3e7d3c0c31bdcafd8f7cdc6",
+      "mediaSizeBytes": 282277,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114113409.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114094606",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114094606",
+      "date": "2026-11-14 09:41:18",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114094606.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114094606.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114094606",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.941895,
+        "lon": 20.742188
+      },
+      "dscovrJ2000Position": {
+        "x": -1073215.078349,
+        "y": -910586.112499,
+        "z": -319929.280266
+      },
+      "lunarJ2000Position": {
+        "x": 124993.56552,
+        "y": -344779.772046,
+        "z": -172738.083918
+      },
+      "sunJ2000Position": {
+        "x": -91824194.147456,
+        "y": -106518152.462557,
+        "z": -46173094.967184
+      },
+      "attitudeQuaternions": {
+        "q0": -0.41035,
+        "q1": -0.25512,
+        "q2": 0.25128,
+        "q3": 0.83868
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.941895,
+          "lon": 20.742188
+        },
+        "dscovr_j2000_position": {
+          "x": -1073215.078349,
+          "y": -910586.112499,
+          "z": -319929.280266
+        },
+        "lunar_j2000_position": {
+          "x": 124993.56552,
+          "y": -344779.772046,
+          "z": -172738.083918
+        },
+        "sun_j2000_position": {
+          "x": -91824194.147456,
+          "y": -106518152.462557,
+          "z": -46173094.967184
+        },
+        "attitude_quaternions": {
+          "q0": -0.41035,
+          "q1": -0.25512,
+          "q2": 0.25128,
+          "q3": 0.83868
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114094606.jpg",
+      "mediaSha256": "f972236f4e62159a4f64e9c9bc4d7bc9694f5cd1f89deb212b1153aa43241ee7",
+      "mediaSizeBytes": 277640,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114094606.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114075804",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114075804",
+      "date": "2026-11-14 07:53:15",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114075804.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114075804.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114075804",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.875977,
+        "lon": 47.790527
+      },
+      "dscovrJ2000Position": {
+        "x": -1074987.906251,
+        "y": -909396.686039,
+        "z": -318948.892818
+      },
+      "lunarJ2000Position": {
+        "x": 119041.055102,
+        "y": -346358.501721,
+        "z": -173900.491456
+      },
+      "sunJ2000Position": {
+        "x": -91978793.812024,
+        "y": -106408828.373483,
+        "z": -46125710.094163
+      },
+      "attitudeQuaternions": {
+        "q0": -0.41005,
+        "q1": -0.254341,
+        "q2": 0.251094,
+        "q3": 0.839116
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.875977,
+          "lon": 47.790527
+        },
+        "dscovr_j2000_position": {
+          "x": -1074987.906251,
+          "y": -909396.686039,
+          "z": -318948.892818
+        },
+        "lunar_j2000_position": {
+          "x": 119041.055102,
+          "y": -346358.501721,
+          "z": -173900.491456
+        },
+        "sun_j2000_position": {
+          "x": -91978793.812024,
+          "y": -106408828.373483,
+          "z": -46125710.094163
+        },
+        "attitude_quaternions": {
+          "q0": -0.41005,
+          "q1": -0.254341,
+          "q2": 0.251094,
+          "q3": 0.839116
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114075804.jpg",
+      "mediaSha256": "29eab1aed308451f7cf9dfe535344390f814f94c0e97f0b0eb6d425d6b75f4f1",
+      "mediaSizeBytes": 270168,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114075804.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114061002",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114061002",
+      "date": "2026-11-14 06:05:13",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114061002.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114061002.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114061002",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.824707,
+        "lon": 74.743652
+      },
+      "dscovrJ2000Position": {
+        "x": -1076757.324776,
+        "y": -908205.07383,
+        "z": -317968.064638
+      },
+      "lunarJ2000Position": {
+        "x": 113058.237874,
+        "y": -347849.142875,
+        "z": -175018.551925
+      },
+      "sunJ2000Position": {
+        "x": -92133209.585829,
+        "y": -106299331.599435,
+        "z": -46078251.333333
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40971,
+        "q1": -0.25355,
+        "q2": 0.25082,
+        "q3": 0.83961
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.824707,
+          "lon": 74.743652
+        },
+        "dscovr_j2000_position": {
+          "x": -1076757.324776,
+          "y": -908205.07383,
+          "z": -317968.064638
+        },
+        "lunar_j2000_position": {
+          "x": 113058.237874,
+          "y": -347849.142875,
+          "z": -175018.551925
+        },
+        "sun_j2000_position": {
+          "x": -92133209.585829,
+          "y": -106299331.599435,
+          "z": -46078251.333333
+        },
+        "attitude_quaternions": {
+          "q0": -0.40971,
+          "q1": -0.25355,
+          "q2": 0.25082,
+          "q3": 0.83961
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114061002.jpg",
+      "mediaSha256": "f865ed0173b6b8db2c8d947a665011794c998fbb69996adcedabf5f34c3a4f03",
+      "mediaSizeBytes": 275326,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114061002.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114042159",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114042159",
+      "date": "2026-11-14 04:17:10",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114042159.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114042159.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114042159",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.79541,
+        "lon": 101.77002
+      },
+      "dscovrJ2000Position": {
+        "x": -1078524.14438,
+        "y": -907010.781251,
+        "z": -316986.543112
+      },
+      "lunarJ2000Position": {
+        "x": 107045.722983,
+        "y": -349251.595786,
+        "z": -176092.182645
+      },
+      "sunJ2000Position": {
+        "x": -92287490.75887,
+        "y": -106189641.333426,
+        "z": -46030705.333374
+      },
+      "attitudeQuaternions": {
+        "q0": -0.409424,
+        "q1": -0.252761,
+        "q2": 0.250603,
+        "q3": 0.840045
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.79541,
+          "lon": 101.77002
+        },
+        "dscovr_j2000_position": {
+          "x": -1078524.14438,
+          "y": -907010.781251,
+          "z": -316986.543112
+        },
+        "lunar_j2000_position": {
+          "x": 107045.722983,
+          "y": -349251.595786,
+          "z": -176092.182645
+        },
+        "sun_j2000_position": {
+          "x": -92287490.75887,
+          "y": -106189641.333426,
+          "z": -46030705.333374
+        },
+        "attitude_quaternions": {
+          "q0": -0.409424,
+          "q1": -0.252761,
+          "q2": 0.250603,
+          "q3": 0.840045
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114042159.jpg",
+      "mediaSha256": "e18b7ff39eb2396e525e8c08ed3a7652b18a43cf48b782a245a624b9c1c85b27",
+      "mediaSizeBytes": 286119,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114042159.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114023357",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114023357",
+      "date": "2026-11-14 02:29:08",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114023357.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114023357.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114023357",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.744141,
+        "lon": 128.737793
+      },
+      "dscovrJ2000Position": {
+        "x": -1080287.577099,
+        "y": -905814.35312,
+        "z": -316004.5875
+      },
+      "lunarJ2000Position": {
+        "x": 101004.109314,
+        "y": -350565.759207,
+        "z": -177121.275643
+      },
+      "sunJ2000Position": {
+        "x": -92441585.733925,
+        "y": -106079776.192997,
+        "z": -45983086.635972
+      },
+      "attitudeQuaternions": {
+        "q0": -0.409097,
+        "q1": -0.251977,
+        "q2": 0.250363,
+        "q3": 0.840513
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.744141,
+          "lon": 128.737793
+        },
+        "dscovr_j2000_position": {
+          "x": -1080287.577099,
+          "y": -905814.35312,
+          "z": -316004.5875
+        },
+        "lunar_j2000_position": {
+          "x": 101004.109314,
+          "y": -350565.759207,
+          "z": -177121.275643
+        },
+        "sun_j2000_position": {
+          "x": -92441585.733925,
+          "y": -106079776.192997,
+          "z": -45983086.635972
+        },
+        "attitude_quaternions": {
+          "q0": -0.409097,
+          "q1": -0.251977,
+          "q2": 0.250363,
+          "q3": 0.840513
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114023357.jpg",
+      "mediaSha256": "3d4aedd0ccdac01e620782065ce700678ba20bad275bb6378ee28ec99d71377e",
+      "mediaSizeBytes": 296954,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114023357.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261114004554",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261114004554",
+      "date": "2026-11-14 00:41:06",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/png/epic_RGB_20261114004554.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/14/thumbs/epic_RGB_20261114004554.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261114004554",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.663574,
+        "lon": 155.749512
+      },
+      "dscovrJ2000Position": {
+        "x": -1082048.117018,
+        "y": -904615.425,
+        "z": -315022.129388
+      },
+      "lunarJ2000Position": {
+        "x": 94936.787658,
+        "y": -351790.869706,
+        "z": -178105.284757
+      },
+      "sunJ2000Position": {
+        "x": -92595529.600057,
+        "y": -105969733.5641,
+        "z": -45935388.255331
+      },
+      "attitudeQuaternions": {
+        "q0": -0.408783,
+        "q1": -0.25119,
+        "q2": 0.250107,
+        "q3": 0.84098
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.663574,
+          "lon": 155.749512
+        },
+        "dscovr_j2000_position": {
+          "x": -1082048.117018,
+          "y": -904615.425,
+          "z": -315022.129388
+        },
+        "lunar_j2000_position": {
+          "x": 94936.787658,
+          "y": -351790.869706,
+          "z": -178105.284757
+        },
+        "sun_j2000_position": {
+          "x": -92595529.600057,
+          "y": -105969733.5641,
+          "z": -45935388.255331
+        },
+        "attitude_quaternions": {
+          "q0": -0.408783,
+          "q1": -0.25119,
+          "q2": 0.250107,
+          "q3": 0.84098
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261114004554.jpg",
+      "mediaSha256": "e8b31fee33b6d8cb87657ca977ef052d0dbe7f069cbd7895c60bba0b0a122ee3",
+      "mediaSizeBytes": 290956,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261114004554.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113201540",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113201540",
+      "date": "2026-11-13 20:10:52",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113201540.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113201540.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113201540",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.634277,
+        "lon": -136.691895
+      },
+      "dscovrJ2000Position": {
+        "x": -1086438.167635,
+        "y": -901606.007849,
+        "z": -312562.129927
+      },
+      "lunarJ2000Position": {
+        "x": 79653.577489,
+        "y": -354464.652166,
+        "z": -180368.325353
+      },
+      "sunJ2000Position": {
+        "x": -92979901.138161,
+        "y": -105693663.404685,
+        "z": -45815732.799952
+      },
+      "attitudeQuaternions": {
+        "q0": -0.407981,
+        "q1": -0.249211,
+        "q2": 0.249377,
+        "q3": 0.842167
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.634277,
+          "lon": -136.691895
+        },
+        "dscovr_j2000_position": {
+          "x": -1086438.167635,
+          "y": -901606.007849,
+          "z": -312562.129927
+        },
+        "lunar_j2000_position": {
+          "x": 79653.577489,
+          "y": -354464.652166,
+          "z": -180368.325353
+        },
+        "sun_j2000_position": {
+          "x": -92979901.138161,
+          "y": -105693663.404685,
+          "z": -45815732.799952
+        },
+        "attitude_quaternions": {
+          "q0": -0.407981,
+          "q1": -0.249211,
+          "q2": 0.249377,
+          "q3": 0.842167
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113201540.jpg",
+      "mediaSha256": "e6c0bbf0b69b6cf735ab49dee3c5fea32d842769470de39fd9cb8c9438e357ec",
+      "mediaSizeBytes": 300282,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113201540.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113182738",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113182738",
+      "date": "2026-11-13 18:22:49",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113182738.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113182738.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113182738",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.575684,
+        "lon": -109.694824
+      },
+      "dscovrJ2000Position": {
+        "x": -1088188.087154,
+        "y": -900398.511458,
+        "z": -311577.581333
+      },
+      "lunarJ2000Position": {
+        "x": 73504.239394,
+        "y": -355376.862248,
+        "z": -181193.317791
+      },
+      "sunJ2000Position": {
+        "x": -93133308.087735,
+        "y": -105582964.266652,
+        "z": -45767750.057159
+      },
+      "attitudeQuaternions": {
+        "q0": -0.4077,
+        "q1": -0.24846,
+        "q2": 0.2493,
+        "q3": 0.84256
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.575684,
+          "lon": -109.694824
+        },
+        "dscovr_j2000_position": {
+          "x": -1088188.087154,
+          "y": -900398.511458,
+          "z": -311577.581333
+        },
+        "lunar_j2000_position": {
+          "x": 73504.239394,
+          "y": -355376.862248,
+          "z": -181193.317791
+        },
+        "sun_j2000_position": {
+          "x": -93133308.087735,
+          "y": -105582964.266652,
+          "z": -45767750.057159
+        },
+        "attitude_quaternions": {
+          "q0": -0.4077,
+          "q1": -0.24846,
+          "q2": 0.2493,
+          "q3": 0.84256
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113182738.jpg",
+      "mediaSha256": "4b3eb6d354d9ebbc79b83a17842b0fb89376985a9cb1b5f175591b221cd1a17a",
+      "mediaSizeBytes": 294084,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113182738.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113163935",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113163935",
+      "date": "2026-11-13 16:34:46",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113163935.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113163935.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113163935",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.546387,
+        "lon": -82.705078
+      },
+      "dscovrJ2000Position": {
+        "x": -1089934.89604,
+        "y": -899188.627989,
+        "z": -310592.501636
+      },
+      "lunarJ2000Position": {
+        "x": 67335.240309,
+        "y": -356199.120292,
+        "z": -181972.367891
+      },
+      "sunJ2000Position": {
+        "x": -93286554.94713,
+        "y": -105472079.583054,
+        "z": -45719687.658311
+      },
+      "attitudeQuaternions": {
+        "q0": -0.407361,
+        "q1": -0.247677,
+        "q2": 0.249062,
+        "q3": 0.843014
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.546387,
+          "lon": -82.705078
+        },
+        "dscovr_j2000_position": {
+          "x": -1089934.89604,
+          "y": -899188.627989,
+          "z": -310592.501636
+        },
+        "lunar_j2000_position": {
+          "x": 67335.240309,
+          "y": -356199.120292,
+          "z": -181972.367891
+        },
+        "sun_j2000_position": {
+          "x": -93286554.94713,
+          "y": -105472079.583054,
+          "z": -45719687.658311
+        },
+        "attitude_quaternions": {
+          "q0": -0.407361,
+          "q1": -0.247677,
+          "q2": 0.249062,
+          "q3": 0.843014
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113163935.jpg",
+      "mediaSha256": "7b1a5ce6aeb28beafe6f10aeaff4c5aa3f27b18e5de4dc06ed860d9dee475992",
+      "mediaSizeBytes": 284625,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113163935.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113145133",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113145133",
+      "date": "2026-11-13 14:46:44",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113145133.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113145133.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113145133",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.473145,
+        "lon": -55.686035
+      },
+      "dscovrJ2000Position": {
+        "x": -1091678.174998,
+        "y": -897976.513824,
+        "z": -309607.035418
+      },
+      "lunarJ2000Position": {
+        "x": 61149.095121,
+        "y": -356931.135264,
+        "z": -182705.176573
+      },
+      "sunJ2000Position": {
+        "x": -93439609.391851,
+        "y": -105361029.166562,
+        "z": -45671552.716716
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40707,
+        "q1": -0.2469,
+        "q2": 0.24874,
+        "q3": 0.84348
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.473145,
+          "lon": -55.686035
+        },
+        "dscovr_j2000_position": {
+          "x": -1091678.174998,
+          "y": -897976.513824,
+          "z": -309607.035418
+        },
+        "lunar_j2000_position": {
+          "x": 61149.095121,
+          "y": -356931.135264,
+          "z": -182705.176573
+        },
+        "sun_j2000_position": {
+          "x": -93439609.391851,
+          "y": -105361029.166562,
+          "z": -45671552.716716
+        },
+        "attitude_quaternions": {
+          "q0": -0.40707,
+          "q1": -0.2469,
+          "q2": 0.24874,
+          "q3": 0.84348
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113145133.jpg",
+      "mediaSha256": "70f80d26ed8e25a6ba3f0ab1eda188a5a5866232fc09acebd68b1cd02ced7185",
+      "mediaSizeBytes": 289933,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113145133.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113130330",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113130330",
+      "date": "2026-11-13 12:58:42",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113130330.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113130330.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113130330",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.414551,
+        "lon": -28.740234
+      },
+      "dscovrJ2000Position": {
+        "x": -1093418.328278,
+        "y": -896762.062499,
+        "z": -308621.041456
+      },
+      "lunarJ2000Position": {
+        "x": 54946.421631,
+        "y": -357572.826905,
+        "z": -183391.690346
+      },
+      "sunJ2000Position": {
+        "x": -93592512.210437,
+        "y": -105249794.146945,
+        "z": -45623338.632721
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40673,
+        "q1": -0.24609,
+        "q2": 0.24841,
+        "q3": 0.84398
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.414551,
+          "lon": -28.740234
+        },
+        "dscovr_j2000_position": {
+          "x": -1093418.328278,
+          "y": -896762.062499,
+          "z": -308621.041456
+        },
+        "lunar_j2000_position": {
+          "x": 54946.421631,
+          "y": -357572.826905,
+          "z": -183391.690346
+        },
+        "sun_j2000_position": {
+          "x": -93592512.210437,
+          "y": -105249794.146945,
+          "z": -45623338.632721
+        },
+        "attitude_quaternions": {
+          "q0": -0.40673,
+          "q1": -0.24609,
+          "q2": 0.24841,
+          "q3": 0.84398
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113130330.jpg",
+      "mediaSha256": "70d3ce7b3ad12a590f1861217a0465d22c4b310d35a2356b78784cd0c07da036",
+      "mediaSizeBytes": 269702,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113130330.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113111528",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113111528",
+      "date": "2026-11-13 11:10:39",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113111528.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113111528.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113111528",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.392578,
+        "lon": -1.73584
+      },
+      "dscovrJ2000Position": {
+        "x": -1095155.639469,
+        "y": -895544.995391,
+        "z": -307634.39013
+      },
+      "lunarJ2000Position": {
+        "x": 48727.831384,
+        "y": -358124.171955,
+        "z": -184031.826738
+      },
+      "sunJ2000Position": {
+        "x": -93745279.006939,
+        "y": -105138366.799916,
+        "z": -45575039.039999
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40646,
+        "q1": -0.24534,
+        "q2": 0.24831,
+        "q3": 0.84436
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.392578,
+          "lon": -1.73584
+        },
+        "dscovr_j2000_position": {
+          "x": -1095155.639469,
+          "y": -895544.995391,
+          "z": -307634.39013
+        },
+        "lunar_j2000_position": {
+          "x": 48727.831384,
+          "y": -358124.171955,
+          "z": -184031.826738
+        },
+        "sun_j2000_position": {
+          "x": -93745279.006939,
+          "y": -105138366.799916,
+          "z": -45575039.039999
+        },
+        "attitude_quaternions": {
+          "q0": -0.40646,
+          "q1": -0.24534,
+          "q2": 0.24831,
+          "q3": 0.84436
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113111528.jpg",
+      "mediaSha256": "87f8e8a02b6b0b59d3b1b467dff8be12a711d27d18354bd3a41e7badada5e463",
+      "mediaSizeBytes": 278989,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113111528.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113092725",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113092725",
+      "date": "2026-11-13 09:22:36",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113092725.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113092725.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113092725",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.341309,
+        "lon": 25.305176
+      },
+      "dscovrJ2000Position": {
+        "x": -1096889.696989,
+        "y": -894325.6,
+        "z": -306647.193001
+      },
+      "lunarJ2000Position": {
+        "x": 42496.817612,
+        "y": -358584.814468,
+        "z": -184625.216775
+      },
+      "sunJ2000Position": {
+        "x": -93897886.207498,
+        "y": -105026746.626194,
+        "z": -45526660.799987
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40615,
+        "q1": -0.24458,
+        "q2": 0.24804,
+        "q3": 0.84481
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.341309,
+          "lon": 25.305176
+        },
+        "dscovr_j2000_position": {
+          "x": -1096889.696989,
+          "y": -894325.6,
+          "z": -306647.193001
+        },
+        "lunar_j2000_position": {
+          "x": 42496.817612,
+          "y": -358584.814468,
+          "z": -184625.216775
+        },
+        "sun_j2000_position": {
+          "x": -93897886.207498,
+          "y": -105026746.626194,
+          "z": -45526660.799987
+        },
+        "attitude_quaternions": {
+          "q0": -0.40615,
+          "q1": -0.24458,
+          "q2": 0.24804,
+          "q3": 0.84481
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113092725.jpg",
+      "mediaSha256": "54842134fb4d9c11b46b1d6e25f4b5db582bb521852200d245a8efe64bbe3e62",
+      "mediaSizeBytes": 272910,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113092725.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113073923",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113073923",
+      "date": "2026-11-13 07:34:34",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113073923.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113073923.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113073923",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.297363,
+        "lon": 52.302246
+      },
+      "dscovrJ2000Position": {
+        "x": -1098620.308333,
+        "y": -893103.972917,
+        "z": -305659.65947
+      },
+      "lunarJ2000Position": {
+        "x": 36253.030518,
+        "y": -358954.784613,
+        "z": -185171.903727
+      },
+      "sunJ2000Position": {
+        "x": -94050306.688282,
+        "y": -104914973.464851,
+        "z": -45478214.078557
+      },
+      "attitudeQuaternions": {
+        "q0": -0.405854,
+        "q1": -0.243774,
+        "q2": 0.247716,
+        "q3": 0.845276
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.297363,
+          "lon": 52.302246
+        },
+        "dscovr_j2000_position": {
+          "x": -1098620.308333,
+          "y": -893103.972917,
+          "z": -305659.65947
+        },
+        "lunar_j2000_position": {
+          "x": 36253.030518,
+          "y": -358954.784613,
+          "z": -185171.903727
+        },
+        "sun_j2000_position": {
+          "x": -94050306.688282,
+          "y": -104914973.464851,
+          "z": -45478214.078557
+        },
+        "attitude_quaternions": {
+          "q0": -0.405854,
+          "q1": -0.243774,
+          "q2": 0.247716,
+          "q3": 0.845276
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113073923.jpg",
+      "mediaSha256": "4932c0efdd83e99e20f531d531a98d494a7efff06013560101f52e55414ed208",
+      "mediaSizeBytes": 265538,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113073923.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113055120",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113055120",
+      "date": "2026-11-13 05:46:31",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113055120.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113055120.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113055120",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.224121,
+        "lon": 79.284668
+      },
+      "dscovrJ2000Position": {
+        "x": -1100347.865905,
+        "y": -891879.844533,
+        "z": -304671.433204
+      },
+      "lunarJ2000Position": {
+        "x": 29999.984015,
+        "y": -359233.879785,
+        "z": -185671.551177
+      },
+      "sunJ2000Position": {
+        "x": -94202584.533208,
+        "y": -104802992.848766,
+        "z": -45429677.550096
+      },
+      "attitudeQuaternions": {
+        "q0": -0.405542,
+        "q1": -0.243003,
+        "q2": 0.247473,
+        "q3": 0.845717
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.224121,
+          "lon": 79.284668
+        },
+        "dscovr_j2000_position": {
+          "x": -1100347.865905,
+          "y": -891879.844533,
+          "z": -304671.433204
+        },
+        "lunar_j2000_position": {
+          "x": 29999.984015,
+          "y": -359233.879785,
+          "z": -185671.551177
+        },
+        "sun_j2000_position": {
+          "x": -94202584.533208,
+          "y": -104802992.848766,
+          "z": -45429677.550096
+        },
+        "attitude_quaternions": {
+          "q0": -0.405542,
+          "q1": -0.243003,
+          "q2": 0.247473,
+          "q3": 0.845717
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113055120.jpg",
+      "mediaSha256": "50bcbf56d777dfdfa400ea1fded4170fe4754fa7df4c45bfc1e6f5b40c87947b",
+      "mediaSizeBytes": 270349,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113055120.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113040318",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113040318",
+      "date": "2026-11-13 03:58:29",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113040318.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113040318.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113040318",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.209473,
+        "lon": 106.26709
+      },
+      "dscovrJ2000Position": {
+        "x": -1102071.899764,
+        "y": -890653.493873,
+        "z": -303682.86302
+      },
+      "lunarJ2000Position": {
+        "x": 23737.327447,
+        "y": -359422.114642,
+        "z": -186124.215479
+      },
+      "sunJ2000Position": {
+        "x": -94354678.98262,
+        "y": -104690854.666574,
+        "z": -45381070.709097
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40523,
+        "q1": -0.24223,
+        "q2": 0.24708,
+        "q3": 0.84621
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.209473,
+          "lon": 106.26709
+        },
+        "dscovr_j2000_position": {
+          "x": -1102071.899764,
+          "y": -890653.493873,
+          "z": -303682.86302
+        },
+        "lunar_j2000_position": {
+          "x": 23737.327447,
+          "y": -359422.114642,
+          "z": -186124.215479
+        },
+        "sun_j2000_position": {
+          "x": -94354678.98262,
+          "y": -104690854.666574,
+          "z": -45381070.709097
+        },
+        "attitude_quaternions": {
+          "q0": -0.40523,
+          "q1": -0.24223,
+          "q2": 0.24708,
+          "q3": 0.84621
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113040318.jpg",
+      "mediaSha256": "6d805cce6effc8c2ba99b4f38a40c6fd6792af373b4aaa7ecb5484e55aa3888e",
+      "mediaSizeBytes": 282078,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113040318.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113021515",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113021515",
+      "date": "2026-11-13 02:10:26",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113021515.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113021515.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113021515",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.172852,
+        "lon": 133.308105
+      },
+      "dscovrJ2000Position": {
+        "x": -1103792.870834,
+        "y": -889424.683503,
+        "z": -302693.657378
+      },
+      "lunarJ2000Position": {
+        "x": 17467.615828,
+        "y": -359519.344476,
+        "z": -186529.659871
+      },
+      "sunJ2000Position": {
+        "x": -94506637.439891,
+        "y": -104578514.666617,
+        "z": -45332375.587112
+      },
+      "attitudeQuaternions": {
+        "q0": -0.404931,
+        "q1": -0.24146,
+        "q2": 0.246929,
+        "q3": 0.84661
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.172852,
+          "lon": 133.308105
+        },
+        "dscovr_j2000_position": {
+          "x": -1103792.870834,
+          "y": -889424.683503,
+          "z": -302693.657378
+        },
+        "lunar_j2000_position": {
+          "x": 17467.615828,
+          "y": -359519.344476,
+          "z": -186529.659871
+        },
+        "sun_j2000_position": {
+          "x": -94506637.439891,
+          "y": -104578514.666617,
+          "z": -45332375.587112
+        },
+        "attitude_quaternions": {
+          "q0": -0.404931,
+          "q1": -0.24146,
+          "q2": 0.246929,
+          "q3": 0.84661
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113021515.jpg",
+      "mediaSha256": "143448d716798bc3c0fc1eaa8c18d5620bd2e95accb06ad5e0fc91366d07d9a7",
+      "mediaSizeBytes": 292978,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113021515.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261113002712",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261113002712",
+      "date": "2026-11-13 00:22:24",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/png/epic_RGB_20261113002712.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/13/thumbs/epic_RGB_20261113002712.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261113002712",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.106934,
+        "lon": 160.3125
+      },
+      "dscovrJ2000Position": {
+        "x": -1105510.275,
+        "y": -888193.635996,
+        "z": -301704.06875
+      },
+      "lunarJ2000Position": {
+        "x": 11193.406575,
+        "y": -359525.54478,
+        "z": -186887.733839
+      },
+      "sunJ2000Position": {
+        "x": -94658412.992505,
+        "y": -104466016.573824,
+        "z": -45283612.800013
+      },
+      "attitudeQuaternions": {
+        "q0": -0.404649,
+        "q1": -0.240691,
+        "q2": 0.246663,
+        "q3": 0.847039
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.106934,
+          "lon": 160.3125
+        },
+        "dscovr_j2000_position": {
+          "x": -1105510.275,
+          "y": -888193.635996,
+          "z": -301704.06875
+        },
+        "lunar_j2000_position": {
+          "x": 11193.406575,
+          "y": -359525.54478,
+          "z": -186887.733839
+        },
+        "sun_j2000_position": {
+          "x": -94658412.992505,
+          "y": -104466016.573824,
+          "z": -45283612.800013
+        },
+        "attitude_quaternions": {
+          "q0": -0.404649,
+          "q1": -0.240691,
+          "q2": 0.246663,
+          "q3": 0.847039
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261113002712.jpg",
+      "mediaSha256": "04a07647828771a28800e870595441b84ca321bdc8f559f7c1fdbd1edb3c56a6",
+      "mediaSizeBytes": 286774,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261113002712.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112195658",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112195658",
+      "date": "2026-11-12 19:52:09",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112195658.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112195658.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112195658",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -12.041016,
+        "lon": -132.1875
+      },
+      "dscovrJ2000Position": {
+        "x": -1109791.881944,
+        "y": -885103.965029,
+        "z": -299226.470478
+      },
+      "lunarJ2000Position": {
+        "x": -4515.258746,
+        "y": -359142.398329,
+        "z": -187575.59655
+      },
+      "sunJ2000Position": {
+        "x": -95037365.999964,
+        "y": -104183796.355659,
+        "z": -45161284.220726
+      },
+      "attitudeQuaternions": {
+        "q0": -0.4039,
+        "q1": -0.23873,
+        "q2": 0.24586,
+        "q3": 0.84819
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -12.041016,
+          "lon": -132.1875
+        },
+        "dscovr_j2000_position": {
+          "x": -1109791.881944,
+          "y": -885103.965029,
+          "z": -299226.470478
+        },
+        "lunar_j2000_position": {
+          "x": -4515.258746,
+          "y": -359142.398329,
+          "z": -187575.59655
+        },
+        "sun_j2000_position": {
+          "x": -95037365.999964,
+          "y": -104183796.355659,
+          "z": -45161284.220726
+        },
+        "attitude_quaternions": {
+          "q0": -0.4039,
+          "q1": -0.23873,
+          "q2": 0.24586,
+          "q3": 0.84819
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112195658.jpg",
+      "mediaSha256": "033b130768cd5fc8a0449b2ec2b16d1082caa93317c690ca868afd1172c8ae1f",
+      "mediaSizeBytes": 285958,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112195658.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112180855",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112180855",
+      "date": "2026-11-12 18:04:07",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112180855.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112180855.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112180855",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.989746,
+        "lon": -105.124512
+      },
+      "dscovrJ2000Position": {
+        "x": -1111497.531832,
+        "y": -883864.779167,
+        "z": -298235.19545
+      },
+      "lunarJ2000Position": {
+        "x": -10796.03868,
+        "y": -358829.885113,
+        "z": -187767.263911
+      },
+      "sunJ2000Position": {
+        "x": -95188564.666622,
+        "y": -104070658.2667,
+        "z": -45112245.017148
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40361,
+        "q1": -0.23801,
+        "q2": 0.24578,
+        "q3": 0.84855
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.989746,
+          "lon": -105.124512
+        },
+        "dscovr_j2000_position": {
+          "x": -1111497.531832,
+          "y": -883864.779167,
+          "z": -298235.19545
+        },
+        "lunar_j2000_position": {
+          "x": -10796.03868,
+          "y": -358829.885113,
+          "z": -187767.263911
+        },
+        "sun_j2000_position": {
+          "x": -95188564.666622,
+          "y": -104070658.2667,
+          "z": -45112245.017148
+        },
+        "attitude_quaternions": {
+          "q0": -0.40361,
+          "q1": -0.23801,
+          "q2": 0.24578,
+          "q3": 0.84855
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112180855.jpg",
+      "mediaSha256": "a827f0f206cb05b10a80d6d0f89e44db39a7254d85dd2ea4e497eee0f9845e53",
+      "mediaSizeBytes": 273072,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112180855.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112162053",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112162053",
+      "date": "2026-11-12 16:16:05",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112162053.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112162053.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112162053",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.931152,
+        "lon": -78.178711
+      },
+      "dscovrJ2000Position": {
+        "x": -1113199.941893,
+        "y": -882623.270834,
+        "z": -297243.45203
+      },
+      "lunarJ2000Position": {
+        "x": -17075.09794,
+        "y": -358426.417595,
+        "z": -187911.224426
+      },
+      "sunJ2000Position": {
+        "x": -95339603.307718,
+        "y": -103957343.744462,
+        "z": -45063130.000026
+      },
+      "attitudeQuaternions": {
+        "q0": -0.4033,
+        "q1": -0.23723,
+        "q2": 0.24546,
+        "q3": 0.84901
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.931152,
+          "lon": -78.178711
+        },
+        "dscovr_j2000_position": {
+          "x": -1113199.941893,
+          "y": -882623.270834,
+          "z": -297243.45203
+        },
+        "lunar_j2000_position": {
+          "x": -17075.09794,
+          "y": -358426.417595,
+          "z": -187911.224426
+        },
+        "sun_j2000_position": {
+          "x": -95339603.307718,
+          "y": -103957343.744462,
+          "z": -45063130.000026
+        },
+        "attitude_quaternions": {
+          "q0": -0.4033,
+          "q1": -0.23723,
+          "q2": 0.24546,
+          "q3": 0.84901
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112162053.jpg",
+      "mediaSha256": "95c2efa927a38c36fdbf869df971b110d7d8595367d4e21d50ee772a695db4f1",
+      "mediaSizeBytes": 287404,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112162053.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112143251",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112143251",
+      "date": "2026-11-12 14:28:02",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112143251.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112143251.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112143251",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.90918,
+        "lon": -51.130371
+      },
+      "dscovrJ2000Position": {
+        "x": -1114898.977295,
+        "y": -881379.321804,
+        "z": -296251.0875
+      },
+      "lunarJ2000Position": {
+        "x": -23351.806013,
+        "y": -357931.980201,
+        "z": -188007.439258
+      },
+      "sunJ2000Position": {
+        "x": -95490497.480068,
+        "y": -103843835.079232,
+        "z": -45013927.137423
+      },
+      "attitudeQuaternions": {
+        "q0": -0.403028,
+        "q1": -0.23648,
+        "q2": 0.245188,
+        "q3": 0.849428
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.90918,
+          "lon": -51.130371
+        },
+        "dscovr_j2000_position": {
+          "x": -1114898.977295,
+          "y": -881379.321804,
+          "z": -296251.0875
+        },
+        "lunar_j2000_position": {
+          "x": -23351.806013,
+          "y": -357931.980201,
+          "z": -188007.439258
+        },
+        "sun_j2000_position": {
+          "x": -95490497.480068,
+          "y": -103843835.079232,
+          "z": -45013927.137423
+        },
+        "attitude_quaternions": {
+          "q0": -0.403028,
+          "q1": -0.23648,
+          "q2": 0.245188,
+          "q3": 0.849428
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112143251.jpg",
+      "mediaSha256": "cc632a688fc4e770df63522e54eaf973c1c21a7aebe3eb0339187af0ab6f172a",
+      "mediaSizeBytes": 273579,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112143251.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112124448",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112124448",
+      "date": "2026-11-12 12:39:59",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112124448.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112124448.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112124448",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.813965,
+        "lon": -24.133301
+      },
+      "dscovrJ2000Position": {
+        "x": -1116594.636504,
+        "y": -880132.995341,
+        "z": -295258.252874
+      },
+      "lunarJ2000Position": {
+        "x": -29623.588388,
+        "y": -357346.708376,
+        "z": -188055.817799
+      },
+      "sunJ2000Position": {
+        "x": -95641231.269655,
+        "y": -103730142.470299,
+        "z": -44964648.400041
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40272,
+        "q1": -0.23572,
+        "q2": 0.24488,
+        "q3": 0.84988
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.813965,
+          "lon": -24.133301
+        },
+        "dscovr_j2000_position": {
+          "x": -1116594.636504,
+          "y": -880132.995341,
+          "z": -295258.252874
+        },
+        "lunar_j2000_position": {
+          "x": -29623.588388,
+          "y": -357346.708376,
+          "z": -188055.817799
+        },
+        "sun_j2000_position": {
+          "x": -95641231.269655,
+          "y": -103730142.470299,
+          "z": -44964648.400041
+        },
+        "attitude_quaternions": {
+          "q0": -0.40272,
+          "q1": -0.23572,
+          "q2": 0.24488,
+          "q3": 0.84988
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112124448.jpg",
+      "mediaSha256": "6a6ea4c17534b9d5be286332c99bf6c38751b1b15d8a35d51ce95317ad25ffea",
+      "mediaSizeBytes": 271886,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112124448.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112105645",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112105645",
+      "date": "2026-11-12 10:51:57",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112105645.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112105645.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112105645",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.784668,
+        "lon": 2.86377
+      },
+      "dscovrJ2000Position": {
+        "x": -1118286.656251,
+        "y": -878884.609374,
+        "z": -294265.134411
+      },
+      "lunarJ2000Position": {
+        "x": -35887.87401,
+        "y": -356670.814709,
+        "z": -188056.36796
+      },
+      "sunJ2000Position": {
+        "x": -95791781.600087,
+        "y": -103616291.429585,
+        "z": -44915301.085845
+      },
+      "attitudeQuaternions": {
+        "q0": -0.402444,
+        "q1": -0.234949,
+        "q2": 0.244643,
+        "q3": 0.850283
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.784668,
+          "lon": 2.86377
+        },
+        "dscovr_j2000_position": {
+          "x": -1118286.656251,
+          "y": -878884.609374,
+          "z": -294265.134411
+        },
+        "lunar_j2000_position": {
+          "x": -35887.87401,
+          "y": -356670.814709,
+          "z": -188056.36796
+        },
+        "sun_j2000_position": {
+          "x": -95791781.600087,
+          "y": -103616291.429585,
+          "z": -44915301.085845
+        },
+        "attitude_quaternions": {
+          "q0": -0.402444,
+          "q1": -0.234949,
+          "q2": 0.244643,
+          "q3": 0.850283
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112105645.jpg",
+      "mediaSha256": "8f2a7d90ea7bd21d647bd7c1a0023fb2b3494da8ffdbc5b1ec6ac7dcffa3014f",
+      "mediaSizeBytes": 276856,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112105645.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112090843",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112090843",
+      "date": "2026-11-12 09:03:55",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112090843.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112090843.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112090843",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.77002,
+        "lon": 29.875488
+      },
+      "dscovrJ2000Position": {
+        "x": -1119975.177481,
+        "y": -877633.970746,
+        "z": -293271.546975
+      },
+      "lunarJ2000Position": {
+        "x": -42144.033353,
+        "y": -355904.339681,
+        "z": -188009.03878
+      },
+      "sunJ2000Position": {
+        "x": -95942163.587066,
+        "y": -103502264.000124,
+        "z": -44865873.794591
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40213,
+        "q1": -0.23419,
+        "q2": 0.24437,
+        "q3": 0.85072
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.77002,
+          "lon": 29.875488
+        },
+        "dscovr_j2000_position": {
+          "x": -1119975.177481,
+          "y": -877633.970746,
+          "z": -293271.546975
+        },
+        "lunar_j2000_position": {
+          "x": -42144.033353,
+          "y": -355904.339681,
+          "z": -188009.03878
+        },
+        "sun_j2000_position": {
+          "x": -95942163.587066,
+          "y": -103502264.000124,
+          "z": -44865873.794591
+        },
+        "attitude_quaternions": {
+          "q0": -0.40213,
+          "q1": -0.23419,
+          "q2": 0.24437,
+          "q3": 0.85072
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112090843.jpg",
+      "mediaSha256": "35d7a2d901bd9a19906f6aefc9d978989515b1eac14701779952de646401e8d7",
+      "mediaSizeBytes": 264759,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112090843.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112072041",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112072041",
+      "date": "2026-11-12 07:15:52",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112072041.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112072041.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112072041",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.733398,
+        "lon": 56.843262
+      },
+      "dscovrJ2000Position": {
+        "x": -1121660.327048,
+        "y": -876380.828139,
+        "z": -292277.36591
+      },
+      "lunarJ2000Position": {
+        "x": -48391.414217,
+        "y": -355047.301595,
+        "z": -187913.795554
+      },
+      "sunJ2000Position": {
+        "x": -96092400.871259,
+        "y": -103388035.200046,
+        "z": -44816359.031278
+      },
+      "attitudeQuaternions": {
+        "q0": -0.401855,
+        "q1": -0.233425,
+        "q2": 0.244093,
+        "q3": 0.851141
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.733398,
+          "lon": 56.843262
+        },
+        "dscovr_j2000_position": {
+          "x": -1121660.327048,
+          "y": -876380.828139,
+          "z": -292277.36591
+        },
+        "lunar_j2000_position": {
+          "x": -48391.414217,
+          "y": -355047.301595,
+          "z": -187913.795554
+        },
+        "sun_j2000_position": {
+          "x": -96092400.871259,
+          "y": -103388035.200046,
+          "z": -44816359.031278
+        },
+        "attitude_quaternions": {
+          "q0": -0.401855,
+          "q1": -0.233425,
+          "q2": 0.244093,
+          "q3": 0.851141
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112072041.jpg",
+      "mediaSha256": "1e27acfa26b463a2372e2b1ba05ea5c040f7436ddd58285a3627ef484496e61a",
+      "mediaSizeBytes": 262500,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112072041.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112053238",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112053238",
+      "date": "2026-11-12 05:27:49",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112053238.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112053238.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112053238",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.682129,
+        "lon": 83.840332
+      },
+      "dscovrJ2000Position": {
+        "x": -1123342.089958,
+        "y": -875125.422763,
+        "z": -291282.720396
+      },
+      "lunarJ2000Position": {
+        "x": -54626.493503,
+        "y": -354100.10017,
+        "z": -187770.676396
+      },
+      "sunJ2000Position": {
+        "x": -96242470.81961,
+        "y": -103273630.509382,
+        "z": -44766768.21118
+      },
+      "attitudeQuaternions": {
+        "q0": -0.401565,
+        "q1": -0.23266,
+        "q2": 0.243815,
+        "q3": 0.851565
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.682129,
+          "lon": 83.840332
+        },
+        "dscovr_j2000_position": {
+          "x": -1123342.089958,
+          "y": -875125.422763,
+          "z": -291282.720396
+        },
+        "lunar_j2000_position": {
+          "x": -54626.493503,
+          "y": -354100.10017,
+          "z": -187770.676396
+        },
+        "sun_j2000_position": {
+          "x": -96242470.81961,
+          "y": -103273630.509382,
+          "z": -44766768.21118
+        },
+        "attitude_quaternions": {
+          "q0": -0.401565,
+          "q1": -0.23266,
+          "q2": 0.243815,
+          "q3": 0.851565
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112053238.jpg",
+      "mediaSha256": "3dbb7a77777502711f7df78e7581f712c9e01fd3ea3417737e8de775250fed5b",
+      "mediaSizeBytes": 272371,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112053238.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112034436",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112034436",
+      "date": "2026-11-12 03:39:47",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112034436.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112034436.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112034436",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.66748,
+        "lon": 110.874023
+      },
+      "dscovrJ2000Position": {
+        "x": -1125019.983333,
+        "y": -873867.915753,
+        "z": -290287.814529
+      },
+      "lunarJ2000Position": {
+        "x": -60849.584272,
+        "y": -353062.643983,
+        "z": -187579.63853
+      },
+      "sunJ2000Position": {
+        "x": -96392357.214188,
+        "y": -103159066.00047,
+        "z": -44717108.333333
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40129,
+        "q1": -0.2319,
+        "q2": 0.2435,
+        "q3": 0.852
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.66748,
+          "lon": 110.874023
+        },
+        "dscovr_j2000_position": {
+          "x": -1125019.983333,
+          "y": -873867.915753,
+          "z": -290287.814529
+        },
+        "lunar_j2000_position": {
+          "x": -60849.584272,
+          "y": -353062.643983,
+          "z": -187579.63853
+        },
+        "sun_j2000_position": {
+          "x": -96392357.214188,
+          "y": -103159066.00047,
+          "z": -44717108.333333
+        },
+        "attitude_quaternions": {
+          "q0": -0.40129,
+          "q1": -0.2319,
+          "q2": 0.2435,
+          "q3": 0.852
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112034436.jpg",
+      "mediaSha256": "b3f011de45b150ffc1e803f08666c4c56c53d45c650979053be422bc348b22ee",
+      "mediaSizeBytes": 286830,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112034436.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112015633",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112015633",
+      "date": "2026-11-12 01:51:44",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112015633.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112015633.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112015633",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.601562,
+        "lon": 137.900391
+      },
+      "dscovrJ2000Position": {
+        "x": -1126694.633334,
+        "y": -872608.006699,
+        "z": -289292.322916
+      },
+      "lunarJ2000Position": {
+        "x": -67057.161422,
+        "y": -351935.48782,
+        "z": -187340.752463
+      },
+      "sunJ2000Position": {
+        "x": -96542105.6387,
+        "y": -103044300.266623,
+        "z": -44667365.437159
+      },
+      "attitudeQuaternions": {
+        "q0": -0.40101,
+        "q1": -0.23116,
+        "q2": 0.24331,
+        "q3": 0.85238
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.601562,
+          "lon": 137.900391
+        },
+        "dscovr_j2000_position": {
+          "x": -1126694.633334,
+          "y": -872608.006699,
+          "z": -289292.322916
+        },
+        "lunar_j2000_position": {
+          "x": -67057.161422,
+          "y": -351935.48782,
+          "z": -187340.752463
+        },
+        "sun_j2000_position": {
+          "x": -96542105.6387,
+          "y": -103044300.266623,
+          "z": -44667365.437159
+        },
+        "attitude_quaternions": {
+          "q0": -0.40101,
+          "q1": -0.23116,
+          "q2": 0.24331,
+          "q3": 0.85238
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112015633.jpg",
+      "mediaSha256": "6096488d815ad1c5e70f092eb3c857ec96681e21dc357f1e79d71eacda49d53d",
+      "mediaSizeBytes": 287756,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112015633.jpg"
+    },
+    {
+      "id": "epic:enhanced:20261112000830",
+      "source": "epic",
+      "collection": "enhanced",
+      "identifier": "20261112000830",
+      "date": "2026-11-12 00:03:42",
+      "title": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "description": "This image was taken by NASA's EPIC camera onboard the NOAA DSCOVR spacecraft",
+      "mediaType": "image",
+      "mediaUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/png/epic_RGB_20261112000830.png",
+      "thumbnailUrl": "https://epic.gsfc.nasa.gov/archive/enhanced/2026/11/12/thumbs/epic_RGB_20261112000830.jpg",
+      "sourceUrl": "https://epic.gsfc.nasa.gov/",
+      "image": "epic_RGB_20261112000830",
+      "version": "04",
+      "centroidCoordinates": {
+        "lat": -11.564941,
+        "lon": 164.919434
+      },
+      "dscovrJ2000Position": {
+        "x": -1128365.394727,
+        "y": -871346.056251,
+        "z": -288296.578126
+      },
+      "lunarJ2000Position": {
+        "x": -73249.538351,
+        "y": -350718.454825,
+        "z": -187053.971517
+      },
+      "sunJ2000Position": {
+        "x": -96691655.199844,
+        "y": -102929376.80012,
+        "z": -44617550.125506
+      },
+      "attitudeQuaternions": {
+        "q0": -0.400695,
+        "q1": -0.23041,
+        "q2": 0.243025,
+        "q3": 0.852815
+      },
+      "coords": {
+        "centroid_coordinates": {
+          "lat": -11.564941,
+          "lon": 164.919434
+        },
+        "dscovr_j2000_position": {
+          "x": -1128365.394727,
+          "y": -871346.056251,
+          "z": -288296.578126
+        },
+        "lunar_j2000_position": {
+          "x": -73249.538351,
+          "y": -350718.454825,
+          "z": -187053.971517
+        },
+        "sun_j2000_position": {
+          "x": -96691655.199844,
+          "y": -102929376.80012,
+          "z": -44617550.125506
+        },
+        "attitude_quaternions": {
+          "q0": -0.400695,
+          "q1": -0.23041,
+          "q2": 0.243025,
+          "q3": 0.852815
+        }
+      },
+      "retrievedAt": "2026-11-18T11:16:08.082918Z",
+      "rightsStatus": "review_required",
+      "localMediaPath": "media/epic/enhanced/2026/11/epic_RGB_20261112000830.jpg",
+      "mediaSha256": "25e275f32e52866f74d7b60c84e426726d650aeb78dbcfd8528b69c7bb995bbc",
+      "mediaSizeBytes": 284805,
+      "mediaStorageStatus": "local_public",
+      "cardType": "full",
+      "contentType": "source_text",
+      "publicationStatus": "approved",
+      "rights": {
+        "media": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "text": {
+          "basis": "nasa_epic_collection_policy",
+          "policyUrl": "https://epic.gsfc.nasa.gov/about",
+          "attribution": "NASA EPIC Team",
+          "evidence": "officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+          "status": "approved"
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced; text:officialHost=True; apiMatch=True; sha256Verified=True; collection=enhanced",
+      "attribution": "NASA EPIC Team",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/epic/2026/11/epic_enhanced_20261112000830.jpg"
+    }
+  ],
+  "safeStubs": []
+}
