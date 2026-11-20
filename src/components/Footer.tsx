@@ -1,14 +1,13 @@
 import React from 'react';
-import { Telescope, ShieldCheck, Cpu, ArrowUp } from 'lucide-react';
-import { Language, DataManifest } from '../types/dataContract';
+import { Telescope, ExternalLink, ArrowUp, Sparkles } from 'lucide-react';
+import { Language } from '../types/dataContract';
 import { translations } from '../i18n/translations';
 
 interface FooterProps {
   lang: Language;
-  manifest: DataManifest | null;
 }
 
-export const Footer: React.FC<FooterProps> = ({ lang, manifest }) => {
+export const Footer: React.FC<FooterProps> = ({ lang }) => {
   const t = translations[lang];
 
   const scrollToTop = () => {
@@ -16,72 +15,66 @@ export const Footer: React.FC<FooterProps> = ({ lang, manifest }) => {
   };
 
   return (
-    <footer id="about" className="border-t border-slate-800 bg-[#02050e] text-slate-400 py-16">
+    <footer id="about" className="border-t border-slate-800 bg-[#02050e] text-slate-400 py-14">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Brand & Mission Statement */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-12 border-b border-slate-800/80">
-          
-          {/* Col 1: Disclaimer */}
+
+        {/* Concise Independent Observatory Statement & Scientific Sources */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pb-10 border-b border-slate-800/80">
           <div className="space-y-3">
             <div className="flex items-center gap-2 text-slate-200 font-semibold text-sm">
-              <Telescope className="w-4 h-4 text-cyan-400" />
-              <span>{t.footer.disclaimerTitle}</span>
+              <Telescope className="w-4 h-4 text-cyan-400 shrink-0" />
+              <span>{t.footer.aboutTitle}</span>
             </div>
-            <p className="text-xs text-slate-400 leading-relaxed font-light">
-              {t.footer.disclaimerText}
+            <p className="text-xs text-slate-400 leading-relaxed font-light max-w-lg">
+              {t.footer.aboutText}
             </p>
           </div>
 
-          {/* Col 2: Architecture */}
           <div className="space-y-3">
             <div className="flex items-center gap-2 text-slate-200 font-semibold text-sm">
-              <Cpu className="w-4 h-4 text-indigo-400" />
-              <span>{t.footer.architectureTitle}</span>
+              <Sparkles className="w-4 h-4 text-cyan-400 shrink-0" />
+              <span>{t.footer.sourcesTitle}</span>
             </div>
-            <p className="text-xs text-slate-400 leading-relaxed font-light">
-              {t.footer.architectureText}
+            <p className="text-xs text-slate-400 leading-relaxed font-light max-w-lg">
+              {t.footer.sourcesText}
             </p>
-            {manifest && (
-              <div className="text-[11px] font-mono text-slate-500">
-                Schema: <span className="text-slate-300">v{manifest.schemaVersion}</span> • 
-                APOD: <span className="text-slate-300">{manifest.sources?.apod?.count || 0} items</span>
-                {manifest.generatedAt && (
-                  <span className="text-slate-400"> • Generated: {manifest.generatedAt.slice(0, 10)}</span>
-                )}
-              </div>
-            )}
-          </div>
-
-          {/* Col 3: Rights & IP */}
-          <div className="space-y-3">
-            <div className="flex items-center gap-2 text-slate-200 font-semibold text-sm">
-              <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>{t.footer.rightsTitle}</span>
+            <div className="flex flex-wrap items-center gap-4 pt-1 text-xs font-mono">
+              <a
+                href="https://epic.gsfc.nasa.gov/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200 transition-colors"
+              >
+                <span>{t.footer.epicPortalLink}</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+              <a
+                href="https://apod.nasa.gov/apod/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200 transition-colors"
+              >
+                <span>{t.footer.apodPortalLink}</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
             </div>
-            <p className="text-xs text-slate-400 leading-relaxed font-light">
-              {t.footer.rightsText}
-            </p>
           </div>
-
         </div>
 
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
-          <div className="flex items-center gap-2 text-slate-500">
-            <span>© 2024–2026 {t.footer.authorBrand}</span>
+          <div className="text-slate-500">
+            <span>{t.footer.copyrightLine}</span>
           </div>
 
-          <div className="flex items-center gap-4 text-slate-400">
-            <span className="text-cyan-400">Website Sprint 001 — First Light</span>
-            <button
-              onClick={scrollToTop}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white transition-colors cursor-pointer"
-            >
-              <span>{lang === 'ru' ? 'Наверх' : 'Top'}</span>
-              <ArrowUp className="w-3.5 h-3.5" />
-            </button>
-          </div>
+          <button
+            type="button"
+            onClick={scrollToTop}
+            className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white transition-colors cursor-pointer"
+          >
+            <span>{t.footer.backToTop}</span>
+            <ArrowUp className="w-3.5 h-3.5" />
+          </button>
         </div>
 
       </div>

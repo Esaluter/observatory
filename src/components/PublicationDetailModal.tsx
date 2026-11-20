@@ -1,46 +1,66 @@
 import React, { useState, useEffect } from 'react';
-import { X, Calendar, User, ShieldCheck, ExternalLink, Sparkles, ChevronLeft, ChevronRight, Film } from 'lucide-react';
-import { ApodRecord, Language } from '../types/dataContract';
+import {
+  X,
+  Calendar,
+  ExternalLink,
+  Sparkles,
+  ChevronLeft,
+  ChevronRight,
+  Film,
+  ChevronDown,
+  ChevronUp,
+  Compass,
+  Clock,
+  User
+} from 'lucide-react';
+import { Language, ObservatoryRecord } from '../types/dataContract';
 import { translations } from '../i18n/translations';
-import { resolveMedia, formatDateLocale } from '../services/dataLoader';
+import {
+  resolveMedia,
+  resolveStoryContent,
+  formatDateLocale,
+  getEffectiveCardType,
+  getRecordAttribution,
+  extractUtcTime,
+  computeVectorDistanceKm
+} from '../services/dataLoader';
 
 interface PublicationDetailModalProps {
-  publication: ApodRecord;
-  publications: ApodRecord[];
+  publication: ObservatoryRecord;
+  publications: ObservatoryRecord[];
+  releaseId?: string;
   lang: Language;
   onClose: () => void;
-  onNavigatePublication: (pub: ApodRecord) => void;
+  onNavigatePublication: (pub: ObservatoryRecord) => void;
 }
 
 export const PublicationDetailModal: React.FC<PublicationDetailModalProps> = ({
   publication,
   publications,
+  releaseId,
   lang,
   onClose,
   onNavigatePublication
 }) => {
   const t = translations[lang];
-  const resolved = resolveMedia(publication);
+  const resolved = resolveMedia(publication, undefined, releaseId);
+  const story = resolveStoryContent(publication, lang);
   const formattedDate = formatDateLocale(publication.date, lang);
-  const [imgError, setImgError] = useState(false);
+  const utcTime = extractUtcTime(publication.date);
+  const cardType = getEffectiveCardType(publication);
+  const attribution = getRecordAttribution(publication);
 
-  // Reset img error on publication switch
+  const [imgError, setImgError] = useState(false);
+  const [videoError, setVideoError] = useState(false);
+  const [showTelemetry, setShowTelemetry] = useState(false);
+
   useEffect(() => {
     setImgError(false);
+    setVideoError(false);
+    setShowTelemetry(false);
   }, [publication.id]);
 
-  // Handle escape key to close
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
-      if (e.key === 'ArrowLeft') handlePrev();
-      if (e.key === 'ArrowRight') handleNext();
-    };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [publication, publications]);
-
-  const currentIndex = publications.findIndex(p => p.id === publication.id);
+  const currentIndex = publications.findIndex((p) => p.id === publication.id);
   const hasPrev = currentIndex > 0;
   const hasNext = currentIndex < publications.length - 1 && currentIndex >= 0;
 
@@ -52,247 +72,345 @@ export const PublicationDetailModal: React.FC<PublicationDetailModalProps> = ({
     if (hasNext) onNavigatePublication(publications[currentIndex + 1]);
   };
 
-  const displayTitle = publication.title;
-  const isVideo = publication.mediaType === 'video' || publication.mediaType === 'iframe';
-  const isLocalVerified = publication.mediaStorageStatus === 'local_public';
-  const isPublicDomain = publication.rightsStatus === 'nasa_public_domain';
-  const authorCredit = publication.credits || publication.copyright || 'NASA';
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+      if (e.key === 'ArrowLeft') handlePrev();
+      if (e.key === 'ArrowRight') handleNext();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [publication, publications, currentIndex]);
+
+  const isEpic = publication.source === 'epic';
+  const displayTitle = isEpic
+    ? `${t.earth.title} · ${publication.collection === 'enhanced' ? t.earth.enhancedLabel : t.earth.naturalLabel}`
+    : story.title;
+
+  const hasEpicTelemetry =
+    isEpic &&
+    Boolean(
+      publication.centroidCoordinates ||
+        publication.dscovrJ2000Position ||
+        publication.sunJ2000Position ||
+        publication.lunarJ2000Position
+    );
+
+  const dscovrDistKm = computeVectorDistanceKm(publication.dscovrJ2000Position);
+  const sunDistKm = computeVectorDistanceKm(publication.sunJ2000Position);
+  const lunarDistKm = computeVectorDistanceKm(publication.lunarJ2000Position);
+
+  const formatNumber = (n: number) =>
+    new Intl.NumberFormat(lang === 'ru' ? 'ru-RU' : 'en-US').format(n);
+  const kmUnit = lang === 'ru' ? 'км' : 'km';
 
   return (
-    <div 
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={displayTitle}
       className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-y-auto bg-black/85 backdrop-blur-md transition-opacity animate-in fade-in"
       onClick={onClose}
     >
-      <div 
+      <div
         className="relative w-full max-w-5xl rounded-3xl bg-slate-950 border border-slate-700/80 shadow-2xl overflow-hidden my-auto max-h-[92vh] flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
-        
         {/* Top Control Bar */}
-        <div className="flex items-center justify-between px-6 py-4 bg-slate-900/90 border-b border-slate-800">
-          <div className="flex items-center gap-2 text-xs font-mono text-cyan-400">
-            <Sparkles className="w-4 h-4" />
-            <span>OBSERVATORY WINDOW • APOD #{publication.date}</span>
+        <div className="flex items-center justify-between px-4 sm:px-6 py-4 bg-slate-900/90 border-b border-slate-800 gap-3">
+          <div className="flex items-center gap-2 text-xs font-mono text-cyan-400 truncate tabular-nums">
+            <Sparkles className="w-4 h-4 shrink-0" />
+            <span className="truncate">
+              {isEpic
+                ? `DSCOVR EPIC · ${formattedDate}${utcTime ? ` · ${utcTime}` : ''}`
+                : `${formattedDate} · ${attribution}`}
+            </span>
           </div>
 
-          <div className="flex items-center gap-2">
-            {/* Prev / Next buttons */}
-            <div className="flex items-center rounded-lg bg-slate-950 border border-slate-800 p-0.5 mr-2">
-              <button
-                onClick={handlePrev}
-                disabled={!hasPrev}
-                className="p-1.5 text-slate-400 hover:text-white disabled:opacity-30 disabled:hover:text-slate-400 transition-colors cursor-pointer"
-                aria-label="Previous publication"
-              >
-                <ChevronLeft className="w-4 h-4" />
-              </button>
-              <span className="text-[10px] font-mono text-slate-500 px-1.5">
-                {currentIndex + 1} / {publications.length}
-              </span>
-              <button
-                onClick={handleNext}
-                disabled={!hasNext}
-                className="p-1.5 text-slate-400 hover:text-white disabled:opacity-30 disabled:hover:text-slate-400 transition-colors cursor-pointer"
-                aria-label="Next publication"
-              >
-                <ChevronRight className="w-4 h-4" />
-              </button>
-            </div>
+          <div className="flex items-center gap-2 shrink-0">
+            {publications.length > 1 && currentIndex >= 0 && (
+              <div className="flex items-center rounded-lg bg-slate-950 border border-slate-800 p-0.5 mr-1">
+                <button
+                  type="button"
+                  onClick={handlePrev}
+                  disabled={!hasPrev}
+                  className="p-1.5 text-slate-400 hover:text-white disabled:opacity-30 disabled:hover:text-slate-400 transition-colors cursor-pointer"
+                  aria-label={t.modal.prev}
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+                <span className="text-[11px] font-mono text-slate-400 px-1.5 tabular-nums">
+                  {currentIndex + 1} / {publications.length}
+                </span>
+                <button
+                  type="button"
+                  onClick={handleNext}
+                  disabled={!hasNext}
+                  className="p-1.5 text-slate-400 hover:text-white disabled:opacity-30 disabled:hover:text-slate-400 transition-colors cursor-pointer"
+                  aria-label={t.modal.next}
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
+            )}
 
             <button
+              type="button"
               onClick={onClose}
               className="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors cursor-pointer"
-              aria-label="Close modal"
+              aria-label={t.modal.close}
             >
               <X className="w-5 h-5" />
             </button>
           </div>
         </div>
 
-        {/* Scrollable Modal Content */}
-        <div className="overflow-y-auto flex-1 p-6 sm:p-8 space-y-6">
-          
-          {/* Main Viewport Container */}
-          <div className="rounded-2xl overflow-hidden bg-black border border-slate-800 flex items-center justify-center">
-            
-            {isVideo ? (
-              resolved.embedUrl ? (
-                <div className="w-full aspect-video">
-                  <iframe
-                    src={resolved.embedUrl}
-                    title={publication.title}
-                    className="w-full h-full border-0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
+        {/* Scrollable Content */}
+        <div className="overflow-y-auto flex-1 p-5 sm:p-8 space-y-6">
+
+          {/* Media Viewport — omitted for text_ai_summary */}
+          {cardType !== 'text_ai_summary' && (
+            <div className="rounded-2xl overflow-hidden bg-black border border-slate-800 flex items-center justify-center">
+              {resolved.isVideo && resolved.isMediaApproved ? (
+                resolved.isDirectVideo && resolved.videoUrl && !videoError ? (
+                  <video
+                    src={resolved.videoUrl}
+                    poster={resolved.thumbnailUrl || undefined}
+                    controls
+                    playsInline
+                    preload="metadata"
+                    onError={() => setVideoError(true)}
+                    className="w-full max-h-[65vh] bg-black"
                   />
-                </div>
-              ) : (
-                <div className="p-12 text-center text-slate-400">
-                  <Film className="w-16 h-16 text-amber-400 mx-auto mb-4" />
-                  <p className="text-sm font-medium text-slate-200">{t.detail.videoNotice}</p>
-                  <a
-                    href={publication.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500 text-slate-950 font-semibold text-xs hover:bg-amber-400 transition-all"
-                  >
-                    <span>{t.detail.nasaSourceBtn}</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
-                </div>
-              )
-            ) : (resolved.displayUrl && !imgError) ? (
-              <div className="relative w-full flex items-center justify-center bg-black">
+                ) : resolved.embedUrl && !videoError ? (
+                  <div className="w-full aspect-video">
+                    <iframe
+                      src={resolved.embedUrl}
+                      title={displayTitle}
+                      className="w-full h-full border-0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+                ) : (
+                  <div className="p-10 text-center text-slate-400 max-w-lg mx-auto space-y-3">
+                    <Film className="w-12 h-12 text-amber-400 mx-auto" />
+                    <p className="text-xs text-slate-300 leading-relaxed">{t.modal.videoFallbackDesc}</p>
+                    <a
+                      href={publication.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-2 inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-amber-500 text-slate-950 font-semibold text-xs hover:bg-amber-400 transition-all"
+                    >
+                      <span>{t.modal.sourceBtn(publication.source)}</span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  </div>
+                )
+              ) : resolved.displayUrl && !imgError ? (
                 <img
                   src={resolved.displayUrl}
                   alt={displayTitle}
+                  referrerPolicy="no-referrer"
                   onError={() => setImgError(true)}
                   className="max-h-[65vh] w-auto object-contain mx-auto"
                 />
-                {isLocalVerified ? (
-                  <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-950/90 border border-emerald-500/60 text-emerald-300 text-xs font-mono shadow-xl backdrop-blur-md">
-                    <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
-                    <span>Verified Local Public Asset</span>
-                  </div>
-                ) : isPublicDomain ? (
-                  <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-950/90 border border-cyan-500/60 text-cyan-300 text-xs font-mono shadow-xl backdrop-blur-md">
-                    <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
-                    <span>NASA Public Domain</span>
-                  </div>
-                ) : null}
-              </div>
-            ) : (
-              /* Restricted / Load fallback */
-              <div className="p-10 text-center max-w-xl mx-auto space-y-4">
-                <div className="w-16 h-16 rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center mx-auto text-amber-400">
-                  <ShieldCheck className="w-8 h-8" />
-                </div>
-                <h4 className="text-lg font-bold font-serif-cosmic text-slate-100">
-                  {t.detail.copyrightFallbackTitle}
-                </h4>
-                <p className="text-xs text-slate-400 leading-relaxed">
-                  {t.detail.copyrightFallbackDesc}
-                </p>
-                <div className="pt-2">
+              ) : (
+                <div className="p-10 text-center max-w-xl mx-auto space-y-3">
+                  <h4 className="text-base font-bold font-serif-cosmic text-slate-100">
+                    {t.modal.mediaFallbackTitle}
+                  </h4>
+                  <p className="text-xs text-slate-400 leading-relaxed">
+                    {t.modal.mediaFallbackDesc}
+                  </p>
                   <a
                     href={publication.sourceUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold text-xs shadow-lg shadow-cyan-950 transition-all"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold text-xs transition-all"
                   >
-                    <span>{t.detail.nasaSourceBtn}</span>
+                    <span>{t.modal.sourceBtn(publication.source)}</span>
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
+          )}
 
-          </div>
-
-          {/* Titles & Original NASA Reference */}
-          <div>
-            <div className="flex flex-wrap items-center gap-3 text-xs font-mono text-cyan-400 mb-2">
-              <span className="flex items-center gap-1">
-                <Calendar className="w-3.5 h-3.5" />
-                {formattedDate}
+          {/* Title & Concise Metadata */}
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-mono text-cyan-400 tabular-nums">
+              <span className="inline-flex items-center gap-1.5">
+                <Calendar className="w-3.5 h-3.5 shrink-0" />
+                <span>{formattedDate}</span>
               </span>
-              <span className="text-slate-600">•</span>
-              <span className="text-slate-400">ID: {publication.id}</span>
+              {utcTime && (
+                <span className="inline-flex items-center gap-1.5 text-slate-300">
+                  <Clock className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                  <span>{utcTime}</span>
+                </span>
+              )}
+              <span className="inline-flex items-center gap-1.5 text-slate-400">
+                <User className="w-3.5 h-3.5 shrink-0" />
+                <span>{attribution}</span>
+              </span>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-serif-cosmic text-white mb-2 leading-tight">
+            <h2 className="text-2xl sm:text-3xl font-bold font-serif-cosmic text-white leading-tight">
               {displayTitle}
-            </h1>
+            </h2>
           </div>
 
-          {/* 2-Column Scientific Content & Metadata */}
+          {/* Story Narrative & Source Action */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 pt-4 border-t border-slate-800">
-            
-            {/* Left: Scientific Explanation (Col 1-8) */}
-            <div className="lg:col-span-8 space-y-4">
-              <div className="flex items-center justify-between pb-2 border-b border-slate-800/80">
-                <h3 className="text-base font-bold font-serif-cosmic text-slate-200">
-                  {t.detail.originalScientificText}
+            <div className="lg:col-span-8 space-y-5">
+              <div className="space-y-3">
+                <h3 className="text-sm font-semibold text-slate-200">
+                  {t.modal.storySectionTitle}
                 </h3>
-                <span className="text-[11px] font-mono text-emerald-400 bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800/40">
-                  {t.detail.scienceNotice}
-                </span>
+
+                {isEpic ? (
+                  <p className="text-sm sm:text-base text-slate-300 font-light leading-relaxed">
+                    {lang === 'ru'
+                      ? t.earth.subtitle
+                      : publication.description || t.earth.subtitle}
+                  </p>
+                ) : !story.needsCollectorText && story.body ? (
+                  <div className="space-y-4">
+                    <div className="text-slate-200 font-light text-sm sm:text-base leading-relaxed whitespace-pre-line">
+                      {story.body}
+                    </div>
+
+                    {story.disclosure && (
+                      <div className="p-3.5 rounded-xl bg-indigo-950/30 border border-indigo-800/40 text-xs text-indigo-200/90 leading-relaxed">
+                        {story.disclosure}
+                      </div>
+                    )}
+
+                    {story.factSources.length > 0 && (
+                      <div className="space-y-1.5 pt-1">
+                        <div className="text-xs font-mono text-slate-400">
+                          {t.modal.factSourcesLabel}:
+                        </div>
+                        <ul className="space-y-1">
+                          {story.factSources.map((srcUrl) => (
+                            <li key={srcUrl}>
+                              <a
+                                href={srcUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-1.5 text-xs text-cyan-300 hover:text-cyan-200 break-all"
+                              >
+                                <span>{srcUrl}</span>
+                                <ExternalLink className="w-3 h-3 shrink-0" />
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <p className="text-sm text-slate-400 font-light leading-relaxed">
+                    {lang === 'ru' ? t.stories.needsExplanationRu : t.stories.needsExplanationEn}
+                  </p>
+                )}
               </div>
 
-              {/* Unabridged scientific text */}
-              <div className="prose prose-invert max-w-none text-slate-300 font-light text-sm sm:text-base leading-relaxed space-y-4">
-                <p>{publication.description}</p>
-              </div>
+              {/* Collapsible EPIC Scientific Parameters (optional, non-technical) */}
+              {hasEpicTelemetry && (
+                <div className="rounded-2xl bg-slate-900/60 border border-slate-800 overflow-hidden">
+                  <button
+                    type="button"
+                    onClick={() => setShowTelemetry((prev) => !prev)}
+                    aria-expanded={showTelemetry}
+                    className="w-full flex items-center justify-between gap-3 px-4 py-3 text-left text-xs text-slate-300 hover:text-cyan-300 hover:bg-slate-900 transition-colors cursor-pointer"
+                  >
+                    <span className="inline-flex items-center gap-2">
+                      <Compass className="w-4 h-4 text-cyan-400 shrink-0" />
+                      <span>{t.modal.epicDetailsToggle}</span>
+                    </span>
+                    {showTelemetry ? (
+                      <ChevronUp className="w-4 h-4 shrink-0" />
+                    ) : (
+                      <ChevronDown className="w-4 h-4 shrink-0" />
+                    )}
+                  </button>
 
-              <div className="p-3.5 rounded-xl bg-slate-900/60 border border-slate-800 text-xs text-slate-400 leading-relaxed font-light">
-                {t.detail.scienceNoticeDetail}
-              </div>
+                  {showTelemetry && (
+                    <div className="px-4 pb-4 pt-2 border-t border-slate-800/80 grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs tabular-nums">
+                      {publication.centroidCoordinates && (
+                        <div className="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800/70">
+                          <div className="text-[11px] text-slate-400 mb-0.5">{t.earth.centroidLabel}</div>
+                          <div className="font-mono text-slate-200">
+                            {publication.centroidCoordinates.lat.toFixed(2)}° /{' '}
+                            {publication.centroidCoordinates.lon.toFixed(2)}°
+                          </div>
+                        </div>
+                      )}
+
+                      {dscovrDistKm && (
+                        <div className="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800/70">
+                          <div className="text-[11px] text-slate-400 mb-0.5">{t.earth.dscovrDistanceLabel}</div>
+                          <div className="font-mono text-slate-200">{formatNumber(dscovrDistKm)} {kmUnit}</div>
+                        </div>
+                      )}
+
+                      {sunDistKm && (
+                        <div className="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800/70">
+                          <div className="text-[11px] text-slate-400 mb-0.5">{t.earth.sunDistanceLabel}</div>
+                          <div className="font-mono text-slate-200">{formatNumber(sunDistKm)} {kmUnit}</div>
+                        </div>
+                      )}
+
+                      {lunarDistKm && (
+                        <div className="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800/70">
+                          <div className="text-[11px] text-slate-400 mb-0.5">{t.earth.lunarDistanceLabel}</div>
+                          <div className="font-mono text-slate-200">{formatNumber(lunarDistKm)} {kmUnit}</div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
 
-            {/* Right: Metadata & Legal Rights (Col 9-12) */}
-            <div className="lg:col-span-4 space-y-4">
-              <div className="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-4">
-                <h4 className="text-xs font-mono font-semibold text-cyan-400 uppercase tracking-wider pb-2 border-b border-slate-800">
-                  {t.detail.metadataHeader}
-                </h4>
-
-                {/* Date */}
-                <div className="space-y-1">
-                  <div className="text-[11px] font-mono text-slate-400">{t.detail.dateLabel}</div>
-                  <div className="text-xs text-slate-200 font-mono">{publication.date}</div>
+            {/* Clean Sidebar: Date, Credit, Canonical NASA Link */}
+            <div className="lg:col-span-4">
+              <div className="p-5 rounded-2xl bg-slate-900/75 border border-slate-800 space-y-4">
+                <div className="space-y-0.5">
+                  <div className="text-[11px] font-mono text-slate-400">{t.modal.dateLabel}</div>
+                  <div className="text-xs text-slate-200 font-mono tabular-nums">{formattedDate}</div>
                 </div>
 
-                {/* Author / Credit */}
-                <div className="space-y-1">
-                  <div className="text-[11px] font-mono text-slate-400">{t.detail.authorLabel}</div>
-                  <div className="text-xs text-slate-200 font-medium">{authorCredit}</div>
-                </div>
-
-                {/* Rights Status */}
-                <div className="space-y-1">
-                  <div className="text-[11px] font-mono text-slate-400">{t.detail.rightsLabel}</div>
-                  <div className="flex items-center gap-1.5">
-                    <span className={`w-2 h-2 rounded-full ${isPublicDomain || isLocalVerified ? 'bg-emerald-400' : 'bg-amber-400'}`} />
-                    <span className="text-xs text-slate-200">
-                      {isPublicDomain ? 'NASA Public Domain' : 'Review Required (Citation)'}
-                    </span>
+                {utcTime && (
+                  <div className="space-y-0.5">
+                    <div className="text-[11px] font-mono text-slate-400">{t.modal.timeLabel}</div>
+                    <div className="text-xs text-slate-200 font-mono tabular-nums">{utcTime}</div>
                   </div>
+                )}
+
+                <div className="space-y-0.5">
+                  <div className="text-[11px] font-mono text-slate-400">{t.modal.authorLabel}</div>
+                  <div className="text-xs text-slate-200 font-medium">{attribution}</div>
                 </div>
 
-                {/* Storage Status */}
-                <div className="space-y-1">
-                  <div className="text-[11px] font-mono text-slate-400">{t.detail.cacheStatusLabel}</div>
-                  <div className="text-xs font-mono text-slate-300">
-                    {isLocalVerified 
-                      ? (lang === 'ru' ? 'Локальный файл (проверен)' : 'Local public verified') 
-                      : (publication.mediaStorageStatus === 'private_archive'
-                          ? (lang === 'ru' ? 'Локальный архив (требует проверки)' : 'Private archive')
-                          : (lang === 'ru' ? 'Только внешний URL' : 'External only')
-                        )}
-                  </div>
-                </div>
-
-                {/* Canonical NASA Link */}
                 <div className="pt-3 border-t border-slate-800">
                   <a
                     href={publication.sourceUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-cyan-300 hover:text-cyan-200 text-xs font-medium transition-colors"
+                    className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-cyan-500/15 hover:bg-cyan-500/25 border border-cyan-500/40 text-cyan-200 text-xs font-medium transition-colors"
                   >
-                    <span>{t.detail.nasaSourceBtn}</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
+                    <span>{t.modal.sourceBtn(publication.source)}</span>
+                    <ExternalLink className="w-3.5 h-3.5 shrink-0" />
                   </a>
                 </div>
-
               </div>
-
             </div>
-
           </div>
 
         </div>
-
       </div>
     </div>
   );
