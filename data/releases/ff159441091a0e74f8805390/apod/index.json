@@ -1,0 +1,2582 @@
+{
+  "schemaVersion": 1,
+  "source": "apod",
+  "generatedAt": "2026-11-19T13:14:39.189535Z",
+  "items": [
+    {
+      "id": "apod:2026-09-05",
+      "source": "apod",
+      "date": "2026-09-05",
+      "title": "Chasing the Moon's Shadow",
+      "description": "NASA APOD media dated 2026-09-05. The original APOD explanation is not included; see the source publication.",
+      "mediaType": "image",
+      "mediaUrl": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/september/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg?w=3840&h=2160&fit=clip&crop=faces%2Cfocalpoint",
+      "thumbnailUrl": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/september/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-5-chasing-the-moons-shadow/",
+      "credits": "NASA",
+      "copyright": "NASA",
+      "retrievedAt": "2026-11-05T19:53:48.877863Z",
+      "rightsStatus": "nasa_public_domain",
+      "publicationStatus": "approved",
+      "cardType": "media_only",
+      "contentType": "metadata",
+      "rights": {
+        "media": {
+          "status": "approved",
+          "basis": "confirmed_nasa_origin",
+          "policyUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "attribution": "NASA",
+          "evidence": "APOD media credits/copyright identify NASA; text is evaluated separately"
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:APOD media credits/copyright identify NASA; text is evaluated separately",
+      "attribution": "NASA",
+      "localMediaUrl": "data/releases/ff159441091a0e74f8805390/media/apod/2026/09/apod_2026-09-05.jpg",
+      "mediaStorageStatus": "local_public",
+      "mediaSha256": "2d5cd4abc8deb7b1fd54c6ca4cd52dce61c9a7f47a01abcca0382177132cf86b"
+    },
+    {
+      "id": "apod:2026-08-31",
+      "source": "apod",
+      "date": "2026-08-31",
+      "title": "Launch of the Roman Space Telescope",
+      "description": "NASA APOD media dated 2026-08-31. The original APOD explanation is not included; see the source publication.",
+      "mediaType": "video",
+      "mediaUrl": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/august/Nancy%20Grace%20Roman%20Space%20Telescope%20Launch_corrected2.mp4",
+      "thumbnailUrl": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/august/RomanLaunch_NASA.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-august-31-launch-of-the-roman-space-telescope/",
+      "credits": "NASA",
+      "copyright": "NASA",
+      "retrievedAt": "2026-11-06T10:38:55.919633Z",
+      "rightsStatus": "nasa_public_domain",
+      "publicationStatus": "approved",
+      "cardType": "media_only",
+      "contentType": "metadata",
+      "rights": {
+        "media": {
+          "status": "approved",
+          "basis": "confirmed_nasa_origin",
+          "policyUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "attribution": "NASA",
+          "evidence": "APOD media credits/copyright identify NASA; text is evaluated separately"
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "rightsEvidence": "media:APOD media credits/copyright identify NASA; text is evaluated separately",
+      "attribution": "NASA",
+      "localMediaUrl": null,
+      "mediaStorageStatus": "external_only"
+    }
+  ],
+  "safeStubs": [
+    {
+      "id": "apod:2026-11-18",
+      "source": "apod",
+      "date": "2026-11-18",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-17",
+      "source": "apod",
+      "date": "2026-11-17",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-16",
+      "source": "apod",
+      "date": "2026-11-16",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-15",
+      "source": "apod",
+      "date": "2026-11-15",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-15-leonid-meteors-through-orion/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-14",
+      "source": "apod",
+      "date": "2026-11-14",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-14-apollo-12-and-surveyor-3/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-13",
+      "source": "apod",
+      "date": "2026-11-13",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-12",
+      "source": "apod",
+      "date": "2026-11-12",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-06",
+      "source": "apod",
+      "date": "2026-11-06",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-05",
+      "source": "apod",
+      "date": "2026-11-05",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-04",
+      "source": "apod",
+      "date": "2026-11-04",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-03",
+      "source": "apod",
+      "date": "2026-11-03",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-02",
+      "source": "apod",
+      "date": "2026-11-02",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-11-01",
+      "source": "apod",
+      "date": "2026-11-01",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-31",
+      "source": "apod",
+      "date": "2026-10-31",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-30",
+      "source": "apod",
+      "date": "2026-10-30",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-29",
+      "source": "apod",
+      "date": "2026-10-29",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-28",
+      "source": "apod",
+      "date": "2026-10-28",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-27",
+      "source": "apod",
+      "date": "2026-10-27",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-26",
+      "source": "apod",
+      "date": "2026-10-26",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod/2026-october-26-m42-the-great-nebula-in-orion/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-25",
+      "source": "apod",
+      "date": "2026-10-25",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-24",
+      "source": "apod",
+      "date": "2026-10-24",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-23",
+      "source": "apod",
+      "date": "2026-10-23",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-22",
+      "source": "apod",
+      "date": "2026-10-22",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-21",
+      "source": "apod",
+      "date": "2026-10-21",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-21-new-ghosts-revealed-in-cassiopeia/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-20",
+      "source": "apod",
+      "date": "2026-10-20",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-19",
+      "source": "apod",
+      "date": "2026-10-19",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-18",
+      "source": "apod",
+      "date": "2026-10-18",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-17",
+      "source": "apod",
+      "date": "2026-10-17",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-16",
+      "source": "apod",
+      "date": "2026-10-16",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-15",
+      "source": "apod",
+      "date": "2026-10-15",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-15-the-milky-way-over-manhattan/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-14",
+      "source": "apod",
+      "date": "2026-10-14",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-13",
+      "source": "apod",
+      "date": "2026-10-13",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-13-desert-stairway-to-heaven/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-12",
+      "source": "apod",
+      "date": "2026-10-12",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-12-jupiter-and-the-moons/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-11",
+      "source": "apod",
+      "date": "2026-10-11",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-11-ice-fishing-for-cosmic-neutrinos/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-10",
+      "source": "apod",
+      "date": "2026-10-10",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-09",
+      "source": "apod",
+      "date": "2026-10-09",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-9-stickney-crater/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-08",
+      "source": "apod",
+      "date": "2026-10-08",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-8-the-saturn-system-smorgasbord/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-07",
+      "source": "apod",
+      "date": "2026-10-07",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-06",
+      "source": "apod",
+      "date": "2026-10-06",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-05",
+      "source": "apod",
+      "date": "2026-10-05",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-5-m104-the-sombrero-galaxys-tidal-streams/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-04",
+      "source": "apod",
+      "date": "2026-10-04",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-03",
+      "source": "apod",
+      "date": "2026-10-03",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-02",
+      "source": "apod",
+      "date": "2026-10-02",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-10-01",
+      "source": "apod",
+      "date": "2026-10-01",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-30",
+      "source": "apod",
+      "date": "2026-09-30",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-30-arp-78-peculiar-galaxy-in-aries/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-29",
+      "source": "apod",
+      "date": "2026-09-29",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-29-sh2-188-the-shrimp-nebula/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-28",
+      "source": "apod",
+      "date": "2026-09-28",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-28-cosmic-latte-the-average-color-of-the-universe/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-27",
+      "source": "apod",
+      "date": "2026-09-27",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-26",
+      "source": "apod",
+      "date": "2026-09-26",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-25",
+      "source": "apod",
+      "date": "2026-09-25",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-25-globular-star-cluster-omega-centauri/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-24",
+      "source": "apod",
+      "date": "2026-09-24",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-24-the-ghosts-of-five-supernovas/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-23",
+      "source": "apod",
+      "date": "2026-09-23",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-23-the-mcgetchin-crater/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-22",
+      "source": "apod",
+      "date": "2026-09-22",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-22-chance-triple-alignment-plane-space-station-sun/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-21",
+      "source": "apod",
+      "date": "2026-09-21",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-21-cocoon-nebula-wide-field/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-20",
+      "source": "apod",
+      "date": "2026-09-20",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-19",
+      "source": "apod",
+      "date": "2026-09-19",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-19-a-zodiacal-night/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-18",
+      "source": "apod",
+      "date": "2026-09-18",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-18-messier-33-the-triangulum-galaxy/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-17",
+      "source": "apod",
+      "date": "2026-09-17",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-17-a-treasure-chest-in-the-carina-nebula/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-16",
+      "source": "apod",
+      "date": "2026-09-16",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-16-webbs-view-of-m64/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-15",
+      "source": "apod",
+      "date": "2026-09-15",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-15-a-daytime-eclipse-moon-occults-venus/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-14",
+      "source": "apod",
+      "date": "2026-09-14",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-14-where-your-elements-came-from/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-13",
+      "source": "apod",
+      "date": "2026-09-13",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-12",
+      "source": "apod",
+      "date": "2026-09-12",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-12-apollo-11-catching-some-sun/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-11",
+      "source": "apod",
+      "date": "2026-09-11",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-11-m83-the-southern-pinwheel/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-10",
+      "source": "apod",
+      "date": "2026-09-10",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-10-ldn-1295-the-giraffe-nebula/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-09",
+      "source": "apod",
+      "date": "2026-09-09",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-9-witness-xz-andromedae-wink/",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-08",
+      "source": "apod",
+      "date": "2026-09-08",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-8-hubble-decagon-around-saturns-south-pole/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-07",
+      "source": "apod",
+      "date": "2026-09-07",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod/apod-2026-september-7-the-pelican-nebula-in-gas-dust-and-stars/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-06",
+      "source": "apod",
+      "date": "2026-09-06",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-6-pluto-in-enhanced-color/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-04",
+      "source": "apod",
+      "date": "2026-09-04",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-03",
+      "source": "apod",
+      "date": "2026-09-03",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-3-the-eclipse-and-the-stork/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-02",
+      "source": "apod",
+      "date": "2026-09-02",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-2-solar-eclipses-and-culture/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-09-01",
+      "source": "apod",
+      "date": "2026-09-01",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-1-a-plane-lunar-eclipse/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-08-30",
+      "source": "apod",
+      "date": "2026-08-30",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-august-30-m74-a-grand-design-spiral/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-08-29",
+      "source": "apod",
+      "date": "2026-08-29",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-august-29-eclipse-pair/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-08-28",
+      "source": "apod",
+      "date": "2026-08-28",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-august-28-the-sky-turns-above-paranal/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-08-27",
+      "source": "apod",
+      "date": "2026-08-27",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-august-27-colorful-aurora-over-an-icelandic-waterfall/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-08-26",
+      "source": "apod",
+      "date": "2026-08-26",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-august-26-jwst-images-the-lions-head-nebula/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-08-25",
+      "source": "apod",
+      "date": "2026-08-25",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-august-25-earths-shadow-visualized-with-lunar-eclipses/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    },
+    {
+      "id": "apod:2026-08-24",
+      "source": "apod",
+      "date": "2026-08-24",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod/apod-2026-august-24-comet-220p-in-outburst/",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "review_required",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3608 @@
+{
+  "schemaVersion": 1,
+  "source": "library",
+  "generatedAt": "2026-11-20T11:46:55.539817Z",
+  "items": [],
+  "safeStubs": [
+    {
+      "id": "library:Moon_Base_CLPS2-V2",
+      "source": "library",
+      "date": "2026-11-07T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/Moon_Base_CLPS2-V2",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:JPL-20261029-WHATSUf-0001-Whats_Up_November_2026",
+      "source": "library",
+      "date": "2026-10-29T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/JPL-20261029-WHATSUf-0001-Whats_Up_November_2026",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:ArtemisIIEclipseVideo",
+      "source": "library",
+      "date": "2026-10-29T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/ArtemisIIEclipseVideo",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:SSC-20261021-s00947H",
+      "source": "library",
+      "date": "2026-10-21T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/SSC-20261021-s00947H",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:SSC-20261021-s00941H",
+      "source": "library",
+      "date": "2026-10-21T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/SSC-20261021-s00941H",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610210032",
+      "source": "library",
+      "date": "2026-10-21T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610210032",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610210018",
+      "source": "library",
+      "date": "2026-10-21T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610210018",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610210013",
+      "source": "library",
+      "date": "2026-10-21T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610210013",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610210010",
+      "source": "library",
+      "date": "2026-10-21T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610210010",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610210007",
+      "source": "library",
+      "date": "2026-10-21T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610210007",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610210004",
+      "source": "library",
+      "date": "2026-10-21T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610210004",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610210002",
+      "source": "library",
+      "date": "2026-10-21T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610210002",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610210001",
+      "source": "library",
+      "date": "2026-10-21T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610210001",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:Moon_Base_Update-Oct-Lunar_Rovers",
+      "source": "library",
+      "date": "2026-10-20T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/Moon_Base_Update-Oct-Lunar_Rovers",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:iss075e0226561",
+      "source": "library",
+      "date": "2026-10-15T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/iss075e0226561",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:iss075e0190522",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/iss075e0190522",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:iss075e0190291",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/iss075e0190291",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0090",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0090",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0088",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0088",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0083",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0083",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0077",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0077",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0062",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0062",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0055",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0055",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0041",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0041",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0036",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0036",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0009",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0009",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0004",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0004",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-PH-CSH01-0001",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-PH-CSH01-0001",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261013-MH-JBS01-0001-Artemis_III_FR3_Ribbon_Ceremony-M27537",
+      "source": "library",
+      "date": "2026-10-13T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261013-MH-JBS01-0001-Artemis_III_FR3_Ribbon_Ceremony-M27537",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:iss075e0189785",
+      "source": "library",
+      "date": "2026-10-12T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/iss075e0189785",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0011",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0011",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0010",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0010",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0009",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0009",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0008",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0008",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0007",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0007",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0006",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0006",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0005",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0005",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0004",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0004",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0003",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0003",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0002",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0002",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261011-PH-SPX01_0001",
+      "source": "library",
+      "date": "2026-10-11T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261011-PH-SPX01_0001",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:iss075e0189812",
+      "source": "library",
+      "date": "2026-10-09T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/iss075e0189812",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:AFRC2026-0218-16",
+      "source": "library",
+      "date": "2026-10-08T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/AFRC2026-0218-16",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:AFRC2026-0218-09",
+      "source": "library",
+      "date": "2026-10-08T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/AFRC2026-0218-09",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:AFRC2026-0217-07",
+      "source": "library",
+      "date": "2026-10-08T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/AFRC2026-0217-07",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:AFRC-2026-14670-01_NiccoleFlorentino_IncentiveFlight_Broll",
+      "source": "library",
+      "date": "2026-10-08T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/AFRC-2026-14670-01_NiccoleFlorentino_IncentiveFlight_Broll",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:AFRC-2026-14669-01_RussFranz_IncentiveFlight_Broll",
+      "source": "library",
+      "date": "2026-10-08T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/AFRC-2026-14669-01_RussFranz_IncentiveFlight_Broll",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040012",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040012",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040011",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040011",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040010",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040010",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040009",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040009",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040008",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040008",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040007",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040007",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040006",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040006",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040005",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040005",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040004",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040004",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040003",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040003",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040002",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040002",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610040001",
+      "source": "library",
+      "date": "2026-10-04T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610040001",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:iss075e0157371",
+      "source": "library",
+      "date": "2026-10-02T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/iss075e0157371",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:AFRC2026-0215-46",
+      "source": "library",
+      "date": "2026-10-02T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/AFRC2026-0215-46",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:AFRC2026-0215-36",
+      "source": "library",
+      "date": "2026-10-02T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/AFRC2026-0215-36",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:AFRC2026-0215-34",
+      "source": "library",
+      "date": "2026-10-02T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/AFRC2026-0215-34",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:AFRC2026-0215-21",
+      "source": "library",
+      "date": "2026-10-02T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/AFRC2026-0215-21",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:iss075e0157531",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/iss075e0157531",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010036",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010036",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010033",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010033",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010032",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010032",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010030",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010030",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010026",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010026",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010025",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010025",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010018",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010018",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010017",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010017",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010015",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010015",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010014",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010014",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010012",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010012",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010008",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010008",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010007",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010007",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:NHQ202610010002",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/NHQ202610010002",
+      "mediaType": "image",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    },
+    {
+      "id": "library:KSC-20261001-VP-FJM01-001-CREW13-LAUNCH-HIGHLIGHTS-M26153",
+      "source": "library",
+      "date": "2026-10-01T00:00:00Z",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20261001-VP-FJM01-001-CREW13-LAUNCH-HIGHLIGHTS-M26153",
+      "mediaType": "video",
+      "rightsStatus": "review_required",
+      "publicationStatus": "published",
+      "rights": {
+        "media": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "text": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "translation": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        },
+        "aiSummary": {
+          "status": "review_required",
+          "basis": "insufficient_evidence",
+          "evidence": ""
+        }
+      },
+      "cardType": "source_link",
+      "contentType": "metadata",
+      "presentation": {
+        "textMode": "source_link",
+        "mediaMode": "placeholder",
+        "notice": {
+          "ru": "Текст нельзя воспроизводить локально. Откройте оригинал на сайте NASA.",
+          "en": "The text cannot be reproduced locally. Open the original NASA source."
+        },
+        "placeholderNotice": {
+          "ru": "Художественная тематическая иллюстрация, не фотография NASA.",
+          "en": "Artistic thematic illustration, not a NASA photograph."
+        }
+      }
+    }
+  ]
+}
