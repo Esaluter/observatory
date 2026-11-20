@@ -17,9 +17,18 @@ export type RightsStatus = 'nasa_public_domain' | 'review_required' | 'restricte
 
 export type ComponentRightStatus = 'approved' | 'review_required' | 'restricted';
 
-export type CardType = 'full' | 'media_only' | 'text_ai_summary';
+export type CardType = 'full' | 'media_only' | 'text_ai_summary' | 'text_source' | 'source_link';
 
 export type ContentType = 'source_text' | 'metadata' | 'ai_summary';
+
+export type PublicationStatus = 'published' | ComponentRightStatus;
+
+export interface PresentationPolicy {
+  textMode: 'ai_summary' | 'source_text' | 'source_link';
+  mediaMode: 'original' | 'placeholder';
+  notice?: { ru?: string; en?: string };
+  placeholderNotice?: { ru?: string; en?: string } | null;
+}
 
 export interface ComponentRight {
   status: ComponentRightStatus;
@@ -86,7 +95,7 @@ export interface ObservatoryRecord {
   rightsStatus?: RightsStatus;
 
   // Sprint 009/010 component-level publication contract fields
-  publicationStatus?: ComponentRightStatus;
+  publicationStatus?: PublicationStatus;
   cardType?: CardType;
   contentType?: ContentType;
   rights?: RecordRights;
@@ -95,6 +104,7 @@ export interface ObservatoryRecord {
   aiSummary?: AiSummaryBlock | null;
   mediaSha256?: string;
   mediaSizeBytes?: number;
+  presentation?: PresentationPolicy;
 
   // EPIC-specific scientific telemetry fields
   collection?: EpicCollection;
@@ -121,8 +131,11 @@ export interface SafeStub {
   sourceUrl: string;
   mediaType: ApodMediaType;
   rightsStatus?: RightsStatus;
-  publicationStatus?: ComponentRightStatus;
+  publicationStatus?: PublicationStatus;
   rights?: RecordRights;
+  cardType?: 'source_link';
+  contentType?: 'metadata';
+  presentation?: PresentationPolicy;
   collection?: EpicCollection;
   identifier?: string;
 }
@@ -162,6 +175,8 @@ export interface DataManifest {
   cards?: CardTypeCounts;
   aiSummaries?: {
     approved: number;
+    fallback?: number;
+    available?: number;
   };
   translations?: number;
   checksums?: Record<string, string>;

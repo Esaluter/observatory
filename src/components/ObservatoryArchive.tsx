@@ -341,6 +341,11 @@ export const ObservatoryArchive: React.FC<ObservatoryArchiveProps> = ({
                             ) : (
                               <Sparkles className="w-8 h-8 text-slate-700" />
                             )}
+                            {media.isArtisticPlaceholder && (
+                              <span className="absolute inset-x-2 bottom-2 px-2 py-1 rounded-md bg-slate-950/85 text-[10px] leading-tight text-slate-200">
+                                {t.stories.artisticPlaceholderNotice}
+                              </span>
+                            )}
                             {media.isVideo && (
                               <span className="absolute bottom-2 left-2 inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-black/80 text-[11px] font-mono text-amber-300">
                                 <Film className="w-3 h-3" />
@@ -359,6 +364,8 @@ export const ObservatoryArchive: React.FC<ObservatoryArchiveProps> = ({
                             <p className="text-xs text-slate-400 line-clamp-2 font-light">
                               {!story.needsCollectorText && story.body
                                 ? story.body
+                                : story.disclosure
+                                  ? story.disclosure
                                 : lang === 'ru'
                                   ? t.stories.needsExplanationRu
                                   : t.stories.needsExplanationEn}
@@ -418,7 +425,7 @@ export const ObservatoryArchive: React.FC<ObservatoryArchiveProps> = ({
                       className="group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-cyan-500/45 overflow-hidden text-left transition-all cursor-pointer"
                     >
                       {media.displayUrl && (
-                        <div className="aspect-[16/10] w-full bg-black overflow-hidden">
+                        <div className="relative aspect-[16/10] w-full bg-black overflow-hidden">
                           <img
                             src={media.displayUrl}
                             alt={story.title}
@@ -426,6 +433,11 @@ export const ObservatoryArchive: React.FC<ObservatoryArchiveProps> = ({
                             referrerPolicy="no-referrer"
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           />
+                          {media.isArtisticPlaceholder && (
+                            <span className="absolute inset-x-2 bottom-2 px-2 py-1 rounded-md bg-slate-950/85 text-[10px] leading-tight text-slate-200">
+                              {t.stories.artisticPlaceholderNotice}
+                            </span>
+                          )}
                         </div>
                       )}
                       <div className="p-5 space-y-1.5">

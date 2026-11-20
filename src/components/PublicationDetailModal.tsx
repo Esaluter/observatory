@@ -19,7 +19,6 @@ import {
   resolveMedia,
   resolveStoryContent,
   formatDateLocale,
-  getEffectiveCardType,
   getRecordAttribution,
   extractUtcTime,
   computeVectorDistanceKm
@@ -47,7 +46,6 @@ export const PublicationDetailModal: React.FC<PublicationDetailModalProps> = ({
   const story = resolveStoryContent(publication, lang);
   const formattedDate = formatDateLocale(publication.date, lang);
   const utcTime = extractUtcTime(publication.date);
-  const cardType = getEffectiveCardType(publication);
   const attribution = getRecordAttribution(publication);
 
   const [imgError, setImgError] = useState(false);
@@ -168,9 +166,8 @@ export const PublicationDetailModal: React.FC<PublicationDetailModalProps> = ({
         {/* Scrollable Content */}
         <div className="overflow-y-auto flex-1 p-5 sm:p-8 space-y-6">
 
-          {/* Media Viewport — omitted for text_ai_summary */}
-          {cardType !== 'text_ai_summary' && (
-            <div className="rounded-2xl overflow-hidden bg-black border border-slate-800 flex items-center justify-center">
+          {/* Original media or an explicitly labelled artistic fallback */}
+          <div className="rounded-2xl overflow-hidden bg-black border border-slate-800 flex flex-col items-center justify-center">
               {resolved.isVideo && resolved.isMediaApproved ? (
                 resolved.isDirectVideo && resolved.videoUrl && !videoError ? (
                   <video
@@ -221,7 +218,7 @@ export const PublicationDetailModal: React.FC<PublicationDetailModalProps> = ({
                     {t.modal.mediaFallbackTitle}
                   </h4>
                   <p className="text-xs text-slate-400 leading-relaxed">
-                    {t.modal.mediaFallbackDesc}
+                    {publication.presentation?.placeholderNotice?.[lang] || t.modal.mediaFallbackDesc}
                   </p>
                   <a
                     href={publication.sourceUrl}
@@ -234,8 +231,12 @@ export const PublicationDetailModal: React.FC<PublicationDetailModalProps> = ({
                   </a>
                 </div>
               )}
-            </div>
-          )}
+            {resolved.isArtisticPlaceholder && (
+              <div className="w-full px-4 py-2.5 text-center text-xs text-slate-300 bg-slate-950 border-t border-slate-800">
+                {t.stories.artisticPlaceholderNotice}
+              </div>
+            )}
+          </div>
 
           {/* Title & Concise Metadata */}
           <div className="space-y-3">
@@ -312,7 +313,7 @@ export const PublicationDetailModal: React.FC<PublicationDetailModalProps> = ({
                   </div>
                 ) : (
                   <p className="text-sm text-slate-400 font-light leading-relaxed">
-                    {lang === 'ru' ? t.stories.needsExplanationRu : t.stories.needsExplanationEn}
+                    {story.disclosure || (lang === 'ru' ? t.stories.needsExplanationRu : t.stories.needsExplanationEn)}
                   </p>
                 )}
               </div>

@@ -15,7 +15,6 @@ import { Language, ObservatoryRecord, SourceDataState } from '../types/dataContr
 import { translations } from '../i18n/translations';
 import {
   formatDateLocale,
-  getEffectiveCardType,
   getRecordAttribution,
   resolveMedia,
   resolveStoryContent
@@ -37,7 +36,9 @@ export const ApodStoriesSection: React.FC<ApodStoriesSectionProps> = ({
   onRetryApod
 }) => {
   const t = translations[lang];
-  const items = apodState.items;
+  // Keep the editorial section light; the complete APOD set remains available
+  // in the archive immediately below.
+  const items = apodState.items.slice(0, 6);
 
   return (
     <section id="stories" className="py-16 border-t border-slate-800/80">
@@ -107,7 +108,6 @@ const ApodStoryCard: React.FC<ApodStoryCardProps> = ({ item, releaseId, lang, on
   const t = translations[lang];
   const resolved = resolveMedia(item, undefined, releaseId);
   const story = resolveStoryContent(item, lang);
-  const cardType = getEffectiveCardType(item);
   const formattedDate = formatDateLocale(item.date, lang);
   const attribution = getRecordAttribution(item);
   const [imgError, setImgError] = useState(false);
@@ -116,9 +116,8 @@ const ApodStoryCard: React.FC<ApodStoryCardProps> = ({ item, releaseId, lang, on
   return (
     <article className="group flex flex-col rounded-3xl bg-gradient-to-b from-slate-900/90 to-slate-950/90 border border-slate-800 hover:border-cyan-500/45 shadow-xl overflow-hidden transition-all duration-300">
 
-      {/* Large Media Showcase — omitted for text_ai_summary cards */}
-      {cardType !== 'text_ai_summary' && (
-        <div className="relative aspect-[16/10] w-full bg-black overflow-hidden border-b border-slate-800/80">
+      {/* Original media or an explicitly labelled artistic fallback */}
+      <div className="relative aspect-[16/10] w-full bg-black overflow-hidden border-b border-slate-800/80">
           {resolved.isVideo && resolved.isMediaApproved ? (
             resolved.isDirectVideo && resolved.videoUrl && !videoError ? (
               <video
@@ -160,6 +159,11 @@ const ApodStoryCard: React.FC<ApodStoryCardProps> = ({ item, releaseId, lang, on
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-50 pointer-events-none" />
+              {resolved.isArtisticPlaceholder && (
+                <span className="absolute left-3 bottom-3 px-2.5 py-1 rounded-lg bg-slate-950/85 border border-slate-700 text-[11px] text-slate-200">
+                  {t.stories.artisticPlaceholderNotice}
+                </span>
+              )}
               <span className="absolute top-4 right-4 p-2 rounded-xl bg-slate-950/75 border border-slate-700 text-slate-200 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-opacity">
                 <Maximize2 className="w-4 h-4" />
               </span>
@@ -168,10 +172,14 @@ const ApodStoryCard: React.FC<ApodStoryCardProps> = ({ item, releaseId, lang, on
             <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center bg-slate-950 space-y-2">
               <Sparkles className="w-8 h-8 text-slate-600" />
               <p className="text-xs text-slate-400">{t.modal.mediaFallbackTitle}</p>
+              {item.presentation?.placeholderNotice?.[lang] && (
+                <p className="text-[11px] text-slate-500">
+                  {item.presentation.placeholderNotice[lang]}
+                </p>
+              )}
             </div>
           )}
-        </div>
-      )}
+      </div>
 
       {/* Editorial Narrative */}
       <div className="p-6 sm:p-8 flex-1 flex flex-col justify-between space-y-5">
@@ -214,7 +222,7 @@ const ApodStoryCard: React.FC<ApodStoryCardProps> = ({ item, releaseId, lang, on
             </div>
           ) : (
             <p className="text-sm text-slate-400 font-light leading-relaxed">
-              {lang === 'ru' ? t.stories.needsExplanationRu : t.stories.needsExplanationEn}
+              {story.disclosure || (lang === 'ru' ? t.stories.needsExplanationRu : t.stories.needsExplanationEn)}
             </p>
           )}
         </div>

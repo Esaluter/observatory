@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {
   buildEpicDaySeries,
+  canRenderAiSummary,
   clearLastValidReleaseBundle,
   computeVectorDistanceKm,
   extractDateKey,
@@ -12,6 +13,8 @@ import {
   findSyncedEpicFrameIndex,
   formatDateLocale,
   getAvailableMonths,
+  getArtisticPlaceholderKind,
+  getArtisticPlaceholderUrl,
   getLocalizedDisclosure,
   getNextEpicFrameIndex,
   isPublishableRecord,
@@ -187,10 +190,11 @@ test('resolveMedia detects approved external_only MP4 video as direct HTML5 vide
   assert.equal(resolved.embedUrl, null);
 });
 
-test('resolveMedia NEVER renders media for text_ai_summary and localizes disclosure', () => {
+test('resolveMedia uses a labelled local illustration for text_ai_summary without rendering source media', () => {
   const resolved = resolveMedia(mockAiSummaryCard, '/', RELEASE_ID);
-  assert.equal(resolved.status, 'text_only');
-  assert.equal(resolved.displayUrl, null);
+  assert.equal(resolved.status, 'artistic_placeholder');
+  assert.equal(resolved.isArtisticPlaceholder, true);
+  assert.match(resolved.displayUrl || '', /^\/placeholders\/placeholder_/);
   assert.equal(resolved.videoUrl, null);
   assert.equal(resolved.embedUrl, null);
   assert.equal(isPublishableRecord(mockAiSummaryCard), true);
@@ -205,8 +209,23 @@ test('resolveMedia NEVER falls back from missing local approved file to unreview
     mediaStorageStatus: 'local_public'
   };
   const resolved = resolveMedia(missingLocal, '/', RELEASE_ID);
-  assert.equal(resolved.status, 'missing_local_media');
-  assert.equal(resolved.displayUrl, null);
+  assert.equal(resolved.status, 'artistic_placeholder');
+  assert.equal(resolved.isArtisticPlaceholder, true);
+  assert.notEqual(resolved.displayUrl, missingLocal.mediaUrl);
+});
+
+test('artistic placeholders are thematic, Vite-base aware, unique assets', () => {
+  assert.equal(getArtisticPlaceholderKind(mockApodMediaOnlyImage), 'planet');
+  assert.equal(
+    getArtisticPlaceholderUrl({ ...mockApodMediaOnlyImage, title: 'A distant galaxy' }, '/observatory/'),
+    '/observatory/placeholders/placeholder_galaxy.png'
+  );
+  const assets = fs.readdirSync(path.resolve('public/placeholders')).filter(name => name.endsWith('.png'));
+  assert.equal(assets.length, 10);
+  assert.equal(new Set(assets).size, 10);
+  for (const asset of assets) {
+    assert.ok(fs.statSync(path.resolve('public/placeholders', asset)).size > 0);
+  }
 });
 
 test('isPublishableRecord rejects restricted items and unapproved AI summary drafts', () => {
@@ -282,7 +301,17 @@ test('loadReleaseSources isolates a failed source index without blanking other s
     const u = String(url);
     if (u.includes('apod/index.json')) {
       return new Response(
-        JSON.stringify({ schemaVersion: 1, source: 'apod', generatedAt: '2026-11-18T00:00:00Z', items: [mockApodMediaOnlyImage], safeStubs: [] }),
+        JSON.stringify({
+          schemaVersion: 1,
+          source: 'apod',
+          generatedAt: '2026-11-18T00:00:00Z',
+          items: [mockApodMediaOnlyImage],
+          safeStubs: [{
+            id: 'apod:2026-11-17', source: 'apod', date: '2026-11-17',
+            sourceUrl: 'https://science.nasa.gov/apod/2026-11-17', mediaType: 'image',
+            publicationStatus: 'published', cardType: 'source_link', contentType: 'metadata'
+          }]
+        }),
         { status: 200 }
       );
     }
@@ -306,7 +335,11 @@ test('loadReleaseSources isolates a failed source index without blanking other s
 
   const bundle = await loadReleaseSources(manifest, '/subpath/', mockFetch);
   assert.equal(bundle.apod.status, 'loaded');
-  assert.equal(bundle.apod.items.length, 1);
+  assert.equal(bundle.apod.items.length, 2);
+  assert.equal(bundle.apod.safeStubs.length, 1);
+  const sourceLinkCard = bundle.apod.items.find(item => item.cardType === 'source_link')!;
+  assert.ok(sourceLinkCard);
+  assert.equal(resolveStoryContent(sourceLinkCard, 'ru').kind, 'source_link');
   assert.equal(bundle.epic.natural.status, 'error');
   assert.equal(bundle.epic.enhanced.status, 'loaded');
   assert.equal(bundle.epic.enhanced.items.length, 1);
@@ -358,23 +391,35 @@ test('Actual public/data/manifest.json and release files satisfy Sprint 010 data
   const rawManifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
   const manifest = validateManifest(rawManifest);
 
-  assert.equal(manifest.releaseId, RELEASE_ID);
-  assert.equal(manifest.sources.apod.count, 2);
-  assert.equal(manifest.sources.apod.safeStubCount, 80);
-  assert.equal(manifest.sources.epic.count, 74);
+  assert.ok(manifest.releaseId && /^[a-f0-9]{24}$/.test(manifest.releaseId));
+  assert.equal(manifest.records, 1046);
+  assert.equal(manifest.sources.apod.count, 62);
+  assert.equal(manifest.sources.apod.safeStubCount, 27);
+  assert.equal(manifest.sources.epic.count, 877);
   assert.equal(manifest.sources.library.count, 0);
-  assert.equal(manifest.aiSummaries?.approved, 0);
+  assert.equal(manifest.sources.library.safeStubCount, 80);
+  assert.equal(manifest.aiSummaries?.approved, 61);
+  assert.equal(manifest.aiSummaries?.fallback, 13);
   assert.equal(manifest.translations, 0);
 
   const apodRaw = JSON.parse(
     fs.readFileSync(path.resolve('public/data', manifest.sources.apod.index), 'utf8')
   );
-  assert.equal(apodRaw.items.length, 2);
-  assert.equal(apodRaw.safeStubs.length, 80);
+  assert.equal(apodRaw.items.length, manifest.sources.apod.count);
+  assert.equal(apodRaw.safeStubs.length, manifest.sources.apod.safeStubCount);
   for (const item of apodRaw.items as ObservatoryRecord[]) {
     assert.equal(isPublishableRecord(item), true);
     const media = resolveMedia(item, '/', manifest.releaseId);
-    assert.equal(media.isMediaApproved, true);
+    assert.ok(['allowed_local', 'video_direct', 'video_embed', 'artistic_placeholder'].includes(media.status));
+  }
+  assert.ok(apodRaw.safeStubs.every((stub: { publicationStatus: string; cardType: string }) =>
+    stub.publicationStatus === 'published' && stub.cardType === 'source_link'
+  ));
+  const approvedAiCards = (apodRaw.items as ObservatoryRecord[]).filter(item => item.aiSummary);
+  assert.equal(approvedAiCards.length, manifest.aiSummaries?.approved);
+  for (const item of approvedAiCards) {
+    assert.equal(canRenderAiSummary(item), true);
+    assert.equal(resolveStoryContent(item, 'ru').kind, 'ai_summary');
   }
 
   const epicNatRaw = JSON.parse(
@@ -383,8 +428,7 @@ test('Actual public/data/manifest.json and release files satisfy Sprint 010 data
   const epicEnhRaw = JSON.parse(
     fs.readFileSync(path.resolve('public/data', manifest.sources.epic.collections!.enhanced), 'utf8')
   );
-  assert.equal(epicNatRaw.items.length, 37);
-  assert.equal(epicEnhRaw.items.length, 37);
+  assert.equal(epicNatRaw.items.length + epicEnhRaw.items.length, manifest.sources.epic.count);
   for (const item of [...epicNatRaw.items, ...epicEnhRaw.items] as ObservatoryRecord[]) {
     assert.equal(isPublishableRecord(item), true);
     const media = resolveMedia(item, '/', manifest.releaseId);
@@ -392,7 +436,7 @@ test('Actual public/data/manifest.json and release files satisfy Sprint 010 data
   }
 });
 
-test('buildEpicDaySeries groups real EPIC release into 3 chronological date series and syncs Natural/Enhanced frames', () => {
+test('buildEpicDaySeries groups the real EPIC release chronologically and syncs Natural/Enhanced frames', () => {
   const manifestRaw = JSON.parse(fs.readFileSync(path.resolve('public/data/manifest.json'), 'utf8')) as DataManifest;
   const natItems = JSON.parse(
     fs.readFileSync(path.resolve('public/data', manifestRaw.sources.epic.collections!.natural), 'utf8')
@@ -402,20 +446,18 @@ test('buildEpicDaySeries groups real EPIC release into 3 chronological date seri
   ).items as ObservatoryRecord[];
 
   const series = buildEpicDaySeries(natItems, enhItems);
-  assert.equal(series.length, 3);
-  assert.equal(series[0].dateKey, '2026-11-14');
-  assert.equal(series[0].natural.length, 13);
-  assert.equal(series[0].enhanced.length, 13);
-  assert.equal(series[2].dateKey, '2026-11-12');
-  assert.equal(series[2].natural.length, 12);
+  assert.ok(series.length > 0);
+  assert.equal(series.length, new Set([...natItems, ...enhItems].map(item => extractDateKey(item.date))).size);
+  assert.ok(series.every((entry, index) => index === 0 || series[index - 1].dateKey > entry.dateKey));
 
   // Chronological ascending within a day
   assert.ok(series[0].natural[0].date < series[0].natural[series[0].natural.length - 1].date);
 
   // Exact identifier sync between Natural and Enhanced
-  const frame7Nat = series[0].natural[6];
-  const syncedIdx = findSyncedEpicFrameIndex(series[0].enhanced, frame7Nat);
-  assert.equal(series[0].enhanced[syncedIdx].identifier, frame7Nat.identifier);
+  const paired = series.find(entry => entry.natural.length > 0 && entry.enhanced.length > 0)!;
+  const sampleNatural = paired.natural[Math.min(6, paired.natural.length - 1)];
+  const syncedIdx = findSyncedEpicFrameIndex(paired.enhanced, sampleNatural);
+  assert.equal(paired.enhanced[syncedIdx].identifier, sampleNatural.identifier);
 
   // Circular stepping
   assert.equal(getNextEpicFrameIndex(12, 13, 1), 0);
@@ -439,9 +481,13 @@ test('resolveStoryContent enforces RU/EN rights and language rules without fabri
   assert.equal(ruAi.title, 'Независимое объяснение туманности');
   assert.ok(ruAi.disclosure && ruAi.disclosure.includes('ИИ'));
 
-  // Approved English full card -> rendered in EN, but RU waits for approved Russian commentary
+  // Approved source text remains available in EN and as an explicitly labelled RU fallback.
   const enFull = resolveStoryContent(mockEpicFullWithLegacyReviewRequired, 'en');
   assert.equal(enFull.needsCollectorText, false);
   assert.equal(enFull.kind, 'source_text');
   assert.ok(enFull.body && enFull.body.includes('DSCOVR'));
+  const ruFullFallback = resolveStoryContent(mockEpicFullWithLegacyReviewRequired, 'ru');
+  assert.equal(ruFullFallback.kind, 'source_text');
+  assert.ok(ruFullFallback.body && ruFullFallback.body.includes('DSCOVR'));
+  assert.match(ruFullFallback.disclosure || '', /оригинальный текст на английском языке/);
 });

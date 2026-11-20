@@ -121,7 +121,9 @@ export function getEffectiveCardType(record: ObservatoryRecord): CardType {
   if (
     record.cardType === 'full' ||
     record.cardType === 'media_only' ||
-    record.cardType === 'text_ai_summary'
+    record.cardType === 'text_ai_summary' ||
+    record.cardType === 'text_source' ||
+    record.cardType === 'source_link'
   ) {
     return record.cardType;
   }
@@ -134,16 +136,26 @@ export function getEffectiveCardType(record: ObservatoryRecord): CardType {
  */
 export function isPublishableRecord(record: ObservatoryRecord): boolean {
   if (!record || !record.id || !record.sourceUrl) return false;
+  const cardType = getEffectiveCardType(record);
+  if (cardType === 'source_link') {
+    return record.publicationStatus === 'published' || record.publicationStatus === 'approved';
+  }
   if (record.publicationStatus === 'restricted' || record.rightsStatus === 'restricted') {
     return false;
   }
-  if (record.publicationStatus && record.publicationStatus !== 'approved') {
+  if (
+    record.publicationStatus &&
+    record.publicationStatus !== 'approved' &&
+    record.publicationStatus !== 'published'
+  ) {
     return false;
   }
 
-  const cardType = getEffectiveCardType(record);
   if (cardType === 'text_ai_summary') {
     return canRenderAiSummary(record);
+  }
+  if (cardType === 'text_source') {
+    return canRenderSourceText(record);
   }
   if (cardType === 'media_only') {
     return canRenderMedia(record);
@@ -154,7 +166,12 @@ export function isPublishableRecord(record: ObservatoryRecord): boolean {
 
 export function canRenderMedia(record: ObservatoryRecord): boolean {
   const cardType = getEffectiveCardType(record);
-  if (cardType === 'text_ai_summary' || record.mediaType === 'none') {
+  if (
+    cardType === 'text_ai_summary' ||
+    cardType === 'text_source' ||
+    cardType === 'source_link' ||
+    record.mediaType === 'none'
+  ) {
     return false;
   }
   if (record.publicationStatus === 'restricted' || record.rightsStatus === 'restricted') {
@@ -169,7 +186,7 @@ export function canRenderMedia(record: ObservatoryRecord): boolean {
 
 export function canRenderSourceText(record: ObservatoryRecord): boolean {
   const cardType = getEffectiveCardType(record);
-  if (cardType !== 'full') {
+  if (cardType !== 'full' && cardType !== 'text_source') {
     return false;
   }
   if (record.publicationStatus === 'restricted' || record.rightsStatus === 'restricted') {
@@ -229,6 +246,7 @@ export interface ResolvedMedia {
   isDirectVideo: boolean;
   isAllowedLocally: boolean;
   isMediaApproved: boolean;
+  isArtisticPlaceholder: boolean;
   status:
     | 'allowed_local'
     | 'allowed_remote'
@@ -236,8 +254,56 @@ export interface ResolvedMedia {
     | 'video_embed'
     | 'missing_local_media'
     | 'media_not_approved'
-    | 'text_only';
+    | 'text_only'
+    | 'artistic_placeholder';
   explanationText: string;
+}
+
+const PLACEHOLDER_RULES: Array<{ kind: string; pattern: RegExp }> = [
+  { kind: 'blackhole', pattern: /black\s*hole|ч[её]рн\w*\s+дыр/i },
+  { kind: 'comet', pattern: /comet|asteroid|комет|астероид/i },
+  { kind: 'eclipse', pattern: /eclipse|затмен/i },
+  { kind: 'supernova', pattern: /supernova|сверхнов|nova\b/i },
+  { kind: 'nebula', pattern: /nebula|туманност/i },
+  { kind: 'galaxy', pattern: /galaxy|galactic|milky\s+way|галактик|млечн/i },
+  { kind: 'planet', pattern: /planet|\bmoon\b|\bmars\b|jupiter|saturn|venus|mercury|планет|лун|марс|юпитер|сатурн|венер|меркур/i },
+  { kind: 'observatory', pattern: /observatory|telescope|обсерватор|телескоп/i },
+  { kind: 'stars', pattern: /\bstars?\b|stellar|constellation|зв[её]зд|созвезди/i }
+];
+
+export function getArtisticPlaceholderKind(record: ObservatoryRecord): string {
+  const searchable = [
+    record.title,
+    record.description,
+    record.aiSummary?.title,
+    record.aiSummary?.body
+  ].filter(Boolean).join(' ');
+  return PLACEHOLDER_RULES.find(rule => rule.pattern.test(searchable))?.kind || 'universe';
+}
+
+export function getArtisticPlaceholderUrl(
+  record: ObservatoryRecord,
+  customBaseUrl?: string
+): string {
+  const base = normalizeBaseUrl(customBaseUrl);
+  return `${base}placeholders/placeholder_${getArtisticPlaceholderKind(record)}.png`;
+}
+
+function artisticPlaceholder(record: ObservatoryRecord, customBaseUrl?: string): ResolvedMedia {
+  const url = getArtisticPlaceholderUrl(record, customBaseUrl);
+  return {
+    displayUrl: url,
+    videoUrl: null,
+    embedUrl: null,
+    thumbnailUrl: url,
+    isVideo: false,
+    isDirectVideo: false,
+    isAllowedLocally: true,
+    isMediaApproved: false,
+    isArtisticPlaceholder: true,
+    status: 'artistic_placeholder',
+    explanationText: 'Artistic illustration; original media remains available at the canonical NASA source'
+  };
 }
 
 function isDirectVideoUrl(url: string): boolean {
@@ -263,7 +329,7 @@ function toYouTubeEmbedUrl(url: string): string | null {
 /**
  * Evaluates component-level rights and storage status to resolve safe displayable media.
  * Strictly adheres to GEMINI_INTEGRATION_HANDOFF.md §§3, 4, 6, 9.5, 9.6, 10:
- * - Never renders media for `text_ai_summary` or when `rights.media.status !== 'approved'`.
+ * - Never renders unapproved source media; safe artistic placeholders are separate local assets.
  * - Uses `localMediaUrl` when `mediaStorageStatus === 'local_public'`.
  * - Never falls back from a missing/invalid local approved file to an unreviewed remote URL.
  * - Supports direct HTML5 MP4 videos (`external_only` with approved media rights) and YouTube embeds.
@@ -276,34 +342,12 @@ export function resolveMedia(
   const cardType = getEffectiveCardType(pub);
 
   if (cardType === 'text_ai_summary' || pub.mediaType === 'none') {
-    return {
-      displayUrl: null,
-      videoUrl: null,
-      embedUrl: null,
-      thumbnailUrl: null,
-      isVideo: false,
-      isDirectVideo: false,
-      isAllowedLocally: false,
-      isMediaApproved: false,
-      status: 'text_only',
-      explanationText: 'Independent text / AI summary card without media'
-    };
+    return artisticPlaceholder(pub, customBaseUrl);
   }
 
   const mediaApproved = canRenderMedia(pub);
   if (!mediaApproved) {
-    return {
-      displayUrl: null,
-      videoUrl: null,
-      embedUrl: null,
-      thumbnailUrl: null,
-      isVideo: pub.mediaType === 'video' || pub.mediaType === 'iframe',
-      isDirectVideo: false,
-      isAllowedLocally: false,
-      isMediaApproved: false,
-      status: 'media_not_approved',
-      explanationText: 'Media requires rights verification; open canonical NASA source'
-    };
+    return artisticPlaceholder(pub, customBaseUrl);
   }
 
   const isVideo = pub.mediaType === 'video' || pub.mediaType === 'iframe';
@@ -312,18 +356,7 @@ export function resolveMedia(
   if (pub.mediaStorageStatus === 'local_public') {
     const safeLocalUrl = resolveLocalMediaUrl(pub.localMediaUrl, expectedReleaseId, customBaseUrl);
     if (!safeLocalUrl) {
-      return {
-        displayUrl: null,
-        videoUrl: null,
-        embedUrl: null,
-        thumbnailUrl: null,
-        isVideo,
-        isDirectVideo: false,
-        isAllowedLocally: false,
-        isMediaApproved: true,
-        status: 'missing_local_media',
-        explanationText: 'Local approved media file unavailable; see canonical NASA source'
-      };
+      return artisticPlaceholder(pub, customBaseUrl);
     }
 
     if (isVideo) {
@@ -336,6 +369,7 @@ export function resolveMedia(
         isDirectVideo: true,
         isAllowedLocally: true,
         isMediaApproved: true,
+        isArtisticPlaceholder: false,
         status: 'video_direct',
         explanationText: 'Approved local video asset'
       };
@@ -350,6 +384,7 @@ export function resolveMedia(
       isDirectVideo: false,
       isAllowedLocally: true,
       isMediaApproved: true,
+      isArtisticPlaceholder: false,
       status: 'allowed_local',
       explanationText: 'Verified local public release asset'
     };
@@ -367,12 +402,16 @@ export function resolveMedia(
         isDirectVideo: true,
         isAllowedLocally: false,
         isMediaApproved: true,
+        isArtisticPlaceholder: false,
         status: 'video_direct',
         explanationText: 'Approved NASA video publication (MP4)'
       };
     }
 
     const embed = pub.mediaUrl ? toYouTubeEmbedUrl(pub.mediaUrl) : null;
+    if (!embed && !pub.thumbnailUrl) {
+      return artisticPlaceholder(pub, customBaseUrl);
+    }
     return {
       displayUrl: pub.thumbnailUrl || null,
       videoUrl: null,
@@ -382,6 +421,7 @@ export function resolveMedia(
       isDirectVideo: false,
       isAllowedLocally: false,
       isMediaApproved: true,
+      isArtisticPlaceholder: false,
       status: 'video_embed',
       explanationText: 'Approved NASA video publication'
     };
@@ -398,23 +438,13 @@ export function resolveMedia(
       isDirectVideo: false,
       isAllowedLocally: false,
       isMediaApproved: true,
+      isArtisticPlaceholder: false,
       status: 'allowed_remote',
       explanationText: 'Approved external NASA media source'
     };
   }
 
-  return {
-    displayUrl: null,
-    videoUrl: null,
-    embedUrl: null,
-    thumbnailUrl: null,
-    isVideo: false,
-    isDirectVideo: false,
-    isAllowedLocally: false,
-    isMediaApproved: false,
-    status: 'missing_local_media',
-    explanationText: 'No local public media available; see canonical NASA source'
-  };
+  return artisticPlaceholder(pub, customBaseUrl);
 }
 
 /**
@@ -489,11 +519,41 @@ function sanitizeSafeStubs(rawStubs: unknown, fallbackSource: ObservatorySource)
       rightsStatus: s.rightsStatus,
       publicationStatus: s.publicationStatus,
       rights: s.rights,
+      cardType: s.cardType,
+      contentType: s.contentType,
+      presentation: s.presentation,
       collection: s.collection,
       identifier: s.identifier
     });
   }
   return stubs;
+}
+
+function safeStubToRecord(stub: SafeStub): ObservatoryRecord {
+  const sourceLabel = stub.source === 'apod' ? 'NASA APOD' : stub.source === 'epic' ? 'NASA EPIC' : 'NASA Library';
+  return {
+    id: stub.id,
+    source: stub.source,
+    date: stub.date,
+    title: `${sourceLabel} · ${stub.date.slice(0, 10)}`,
+    description: '',
+    mediaType: 'none',
+    mediaUrl: null,
+    thumbnailUrl: null,
+    sourceUrl: stub.sourceUrl,
+    retrievedAt: '',
+    localMediaUrl: null,
+    mediaStorageStatus: 'none',
+    rightsStatus: stub.rightsStatus,
+    publicationStatus: stub.publicationStatus || 'published',
+    rights: stub.rights,
+    cardType: 'source_link',
+    contentType: 'metadata',
+    presentation: stub.presentation,
+    collection: stub.collection,
+    identifier: stub.identifier,
+    attribution: 'NASA'
+  };
 }
 
 /**
@@ -536,10 +596,11 @@ export async function loadSourceIndex(
     }));
 
   const safeStubs = sanitizeSafeStubs(data.safeStubs, source);
+  const stubRecords = safeStubs.map(safeStubToRecord);
 
   return {
     status: 'loaded',
-    items: validItems,
+    items: [...validItems, ...stubRecords].sort((a, b) => b.date.localeCompare(a.date)),
     safeStubs,
     generatedAt: data.generatedAt || null,
     error: null
@@ -954,7 +1015,7 @@ export function getNextEpicFrameIndex(
 export interface ResolvedStoryContent {
   title: string;
   body: string | null;
-  kind: 'ai_summary' | 'source_text' | 'needs_explanation';
+  kind: 'ai_summary' | 'source_text' | 'source_link' | 'needs_explanation';
   disclosure: string | null;
   factSources: string[];
   needsCollectorText: boolean;
@@ -964,7 +1025,7 @@ export interface ResolvedStoryContent {
  * Resolves visitor-facing popular-science story content for APOD & Library cards
  * strictly respecting Sprint 011 §3 language & rights rules:
  * - Never fabricates explanations or displays unapproved/draft text.
- * - RU: displays approved Russian `aiSummary` when available; otherwise marks `needsCollectorText: true`.
+ * - RU: displays approved Russian `aiSummary`; otherwise an approved English source text with a clear notice.
  * - EN: displays original source text ONLY when `cardType === 'full'` and `rights.text.status === 'approved'`;
  *       otherwise displays approved English `aiSummary` if present, or marks `needsCollectorText: true`.
  */
@@ -976,6 +1037,19 @@ export function resolveStoryContent(
   const sourceTextApproved = canRenderSourceText(record);
   const ai = record.aiSummary;
 
+  if (getEffectiveCardType(record) === 'source_link') {
+    return {
+      title: record.title,
+      body: null,
+      kind: 'source_link',
+      disclosure: lang === 'ru'
+        ? 'Описание доступно на сайте NASA'
+        : "Description available on NASA's website",
+      factSources: [],
+      needsCollectorText: true
+    };
+  }
+
   if (lang === 'ru') {
     if (aiApproved && ai && (!ai.language || ai.language.toLowerCase().startsWith('ru'))) {
       return {
@@ -984,6 +1058,17 @@ export function resolveStoryContent(
         kind: 'ai_summary',
         disclosure: getLocalizedDisclosure(ai, 'ru'),
         factSources: ai.factSources || [],
+        needsCollectorText: false
+      };
+    }
+
+    if (sourceTextApproved && record.description) {
+      return {
+        title: record.title,
+        body: record.description,
+        kind: 'source_text',
+        disclosure: 'Автоматический пересказ ИИ недоступен. Показан оригинальный текст на английском языке',
+        factSources: [],
         needsCollectorText: false
       };
     }
@@ -1004,7 +1089,7 @@ export function resolveStoryContent(
       title: record.title,
       body: record.description,
       kind: 'source_text',
-      disclosure: null,
+      disclosure: 'AI-generated summary is unavailable. The original English text is shown',
       factSources: [],
       needsCollectorText: false
     };

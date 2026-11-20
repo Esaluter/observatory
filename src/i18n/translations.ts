@@ -58,6 +58,7 @@ export interface Translations {
     needsExplanationEn: string;
     factSourcesLabel: string;
     aiExplanationLabel: string;
+    artisticPlaceholderNotice: string;
     videoLabel: string;
     errorTitle: string;
     retryBtn: string;
@@ -170,11 +171,12 @@ export const translations: Record<Language, Translations> = {
       openSourceBtn: 'Первоисточник NASA',
       authorLabel: 'Авторство',
       needsExplanationRu:
-        'Подробное научно-популярное объяснение на русском языке готовится к публикации. Сейчас вы можете ознакомиться с оригинальным материалом на сайте NASA.',
+        'Автоматический пересказ с помощью ИИ недоступен или не прошёл проверку. Оригинальный материал доступен по ссылке NASA.',
       needsExplanationEn:
-        'A curated popular-science explanation is being prepared. You can read the original NASA publication directly.',
+        'An automatically verified explanation is unavailable. The original NASA publication remains available by link.',
       factSourcesLabel: 'Научные источники',
       aiExplanationLabel: 'Научно-популярное объяснение',
+      artisticPlaceholderNotice: 'Художественная иллюстрация. Оригинал — на сайте NASA',
       videoLabel: 'Видео',
       errorTitle: 'Не удалось загрузить космические истории',
       retryBtn: 'Повторить загрузку',
@@ -293,11 +295,12 @@ export const translations: Record<Language, Translations> = {
       openSourceBtn: 'Original NASA page',
       authorLabel: 'Credit',
       needsExplanationRu:
-        'A curated Russian explanation is being prepared. You can read the original publication on NASA.',
+        'An automatically verified Russian explanation is unavailable. Read the original publication on NASA.',
       needsExplanationEn:
-        'A curated explanation is not yet included for this exhibit. Read the full original story on the official NASA APOD website.',
+        'An automatically verified explanation is unavailable. Read the original story on the official NASA website.',
       factSourcesLabel: 'Scientific sources',
       aiExplanationLabel: 'Popular-science explanation',
+      artisticPlaceholderNotice: "Artistic illustration. View the original on NASA's website",
       videoLabel: 'Video',
       errorTitle: 'Unable to load cosmic stories',
       retryBtn: 'Retry',
